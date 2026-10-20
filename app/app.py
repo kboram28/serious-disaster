@@ -10,6 +10,7 @@
   📊 통계·사례 검색   업종·유형·지역 조건별 통계와 사례 목록
 """
 import json
+import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -39,10 +40,13 @@ def cases() -> pd.DataFrame:
     return db()[0]
 
 
-def case_card(r: pd.Series):
+def case_card(r: pd.Series, num: int | None = None):
     where = f" · {r['시도']} {r['시군구']}" if r["시도"] else ""
     year = f" · {r['연도']}년" if r["연도"] else ""
-    st.markdown(f"**[{r['case_id']}] {r['재해유형']}** (연관: {r['연관유형']}) · {r['업종']}{where}{year} · {r['출처']}")
+    title = f"사례 {num}" if num else r["case_id"]
+    st.markdown(f"**[{title}] {r['재해유형']}** (연관: {r['연관유형']}) · {r['업종']}{where}{year} · {r['출처']}")
+    if num:
+        st.caption(f"사례 ID: {r['case_id']}")
     st.write(r["사고개요"])
     st.caption(f"기인물: {r['기인물']}  |  작업: {r['작업분류'] or r['작업'] or '-'}")
     st.caption(f"재해유발요인: {r['재해유발요인']}")
@@ -55,6 +59,13 @@ def save_feedback(entry: dict):
     entry["time"] = datetime.now().isoformat(timespec="seconds")
     with FEEDBACK.open("a", encoding="utf-8") as f:
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+
+def friendly(answer: str, retrieved: list[str]) -> str:
+    """답변의 사례 ID([Sb524ef1e78], [E155])를 '참고한 사례' 목록 번호([사례 1])로 바꿔 보여줌"""
+    num = {cid: k for k, cid in enumerate(retrieved, 1)}
+    return re.sub(r"\[?(?<![0-9A-Za-z])(E\d{3}|S[0-9a-f]{10})(?![0-9A-Za-z])\]?",
+                  lambda m: f"[사례 {num[m.group(1)]}]" if m.group(1) in num else m.group(0), answer)
 
 
 def hbar(data: pd.DataFrame, label: str, value: str = "건수", height: int | None = None):
@@ -89,7 +100,7 @@ def page_chat():
 
     for i, m in enumerate(ss.messages):
         with st.chat_message(m["role"]):
-            st.markdown(m["content"])
+            st.markdown(friendly(m["content"], m["retrieved"]) if m["role"] == "assistant" else m["content"])
             if m["role"] == "assistant":
                 render_answer_extras(i, m)
 
@@ -117,7 +128,7 @@ def page_chat():
         msg = {"role": "assistant", "content": res["answer"], "question": full_q,
                "retrieved": res["retrieved"], "query": res["query"], "photo_desc": photo_desc}
         ss.messages.append(msg)
-        st.markdown(res["answer"])
+        st.markdown(friendly(res["answer"], res["retrieved"]))
         render_answer_extras(len(ss.messages) - 1, msg)
 
 
@@ -130,10 +141,10 @@ def render_answer_extras(i: int, m: dict):
         q = m["query"]
         st.caption(f"의도: {q['의도']} / 업종: {q['업종'] or '-'} / 재해유형: {q['재해유형'] or '-'} / "
                    f"지역: {q['시도'] or '-'} / 검색문장: {q['검색문장']}")
-        for cid in m["retrieved"]:
+        for k, cid in enumerate(m["retrieved"], 1):
             r = df.loc[cid].copy()
             r["case_id"] = cid
-            case_card(r)
+            case_card(r, k)
             st.divider()
 
     key = f"fb_{i}"
@@ -161,7 +172,8 @@ def page_upload():
         st.info("사고 내용이 적힌 열이 하나 이상 있으면 됩니다. 예: '사고내용' 열에 '사다리에서 작업 중 떨어짐'")
         return
     data = pd.read_csv(f) if f.name.endswith(".csv") else pd.read_excel(f)
-    text_cols = [c for c in data.columns if data[c].dtype == object]
+    text_cols = [c for c in data.columns
+                 if pd.api.types.is_string_dtype(data[c]) or pd.api.types.is_object_dtype(data[c])]
     if not text_cols:
         st.error("글자로 된 열이 없습니다.")
         return
@@ -175,7 +187,7 @@ def page_upload():
         with ThreadPoolExecutor(max_workers=4) as pool:
             results = list(pool.map(system.classify, rows))
     out = pd.DataFrame({"사고내용": rows, "재해유형": [r["유형"] for r in results],
-                        "유사사례": [", ".join(r["retrieved"][:3]) for r in results]})
+                        "유사사례 ID": [", ".join(r["retrieved"][:3]) for r in results]})
     vc = out["재해유형"].value_counts().reindex(TYPES, fill_value=0).rename_axis("재해유형").reset_index(name="건수")
 
     c1, c2 = st.columns([1, 2])
@@ -196,7 +208,14 @@ def page_upload():
             + f"입니다. 가장 많은 {top} 사고의 공통 위험과 우선 예방대책을 알려줘. 사고 예시: "
             + " / ".join(out[out["재해유형"] == top]["사고내용"].head(5)))
     st.subheader("경향 분석과 우선 예방대책")
-    st.markdown(summary["answer"])
+    st.markdown(friendly(summary["answer"], summary["retrieved"]))
+    with st.expander(f"🔎 참고한 사례 {len(summary['retrieved'])}건"):
+        df = cases().set_index("case_id")
+        for k, cid in enumerate(summary["retrieved"], 1):
+            r = df.loc[cid].copy()
+            r["case_id"] = cid
+            case_card(r, k)
+            st.divider()
 
 
 # ---------------- ❓ 자주 묻는 질문 ----------------
