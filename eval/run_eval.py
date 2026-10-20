@@ -12,6 +12,7 @@ ask(질문, history) -> {"answer", "usage"} 를 제공해야 한다.
 
 사용법
   python eval/run_eval.py v1
+  python eval/run_eval.py v2.1 holdout    # 새 질문 세트로 답변만 생성
 """
 import importlib.util
 import json
@@ -27,7 +28,8 @@ ROOT = Path(__file__).resolve().parent.parent
 GOLD = ROOT / "eval/test_gold.csv"
 QUESTIONS = ROOT / "eval/questions.csv"
 RESULTS = ROOT / "eval/results"
-SYSTEMS = {"v1": ROOT / "v1_baseline/v1.py"}
+SYSTEMS = {"v1": ROOT / "v1_baseline/v1.py", "v2": ROOT / "v2/rag.py", "v2.1": ROOT / "v2/rag_v21.py"}
+QUESTION_SETS = {"main": ROOT / "eval/questions.csv", "holdout": ROOT / "eval/questions_holdout.csv"}
 TYPES = ["떨어짐", "끼임", "깔림", "맞음", "부딪힘", "기타"]
 
 
@@ -86,16 +88,22 @@ def run_classify(sys_mod, name: str) -> pd.DataFrame:
     return gold.merge(res, on="문항ID")
 
 
-def cited_cases(answer: str) -> list[int]:
-    """답변에 인용된 사례 번호 추출: [12], 12번, 사례 12 등"""
-    nums = re.findall(r"\[(\d{1,4})\]|(\d{1,4})\s*번|사례\s*(\d{1,4})", answer)
-    return sorted({int(n) for t in nums for n in t if n})
+def cited_cases(answer: str) -> list[str]:
+    """답변에 인용된 사례 ID 추출
+    V1: [12], 12번, 사례 12 → 'E012' / V2: [E012], [S1a2b3c4d5e]"""
+    ids = set(re.findall(r"\b(E\d{3}|S[0-9a-f]{10})\b", answer))
+    if not ids:
+        nums = re.findall(r"\[(\d{1,4})\]|(\d{1,4})\s*번|사례\s*(\d{1,4})", answer)
+        ids = {f"E{int(n):03d}" for t in nums for n in t if n}
+    return sorted(ids)
 
 
-def run_questions(sys_mod, name: str) -> pd.DataFrame:
-    path = RESULTS / f"{name}_answers.jsonl"
+def run_questions(sys_mod, name: str, qset: str = "main") -> pd.DataFrame:
+    suffix = "" if qset == "main" else f"_{qset}"
+    path = RESULTS / f"{name}{suffix}_answers.jsonl"
     done = load_done(path, "질문ID")
-    qs = pd.read_csv(QUESTIONS, dtype=str).fillna("")
+    qs = pd.read_csv(QUESTION_SETS[qset], dtype=str).fillna("")
+    assert (qs["질문"] != "").all(), "빈 질문이 있음"
     print(f"[질문] 전체 {len(qs)} / 완료 {len(done)} / 실행 {len(qs) - len(done)}")
 
     def work(row):
@@ -105,7 +113,8 @@ def run_questions(sys_mod, name: str) -> pd.DataFrame:
             history = [(prev["질문"], prev["answer"])]
         r = timed(sys_mod.ask, row["질문"], history)
         return {"질문ID": row["질문ID"], "질문": row["질문"], "answer": r["answer"],
-                "인용사례": cited_cases(r["answer"]), "usage": r["usage"], "sec": r["sec"]}
+                "인용사례": cited_cases(r["answer"]), "검색사례": r.get("retrieved", []),
+                "검색조건": r.get("query"), "usage": r["usage"], "sec": r["sec"]}
 
     # 이전 질문이 없는 것부터 병렬 실행 → 이어지는 질문은 그 다음에
     first = [row for _, row in qs.iterrows() if row["질문ID"] not in done and not row["이전질문ID"]]
@@ -196,8 +205,12 @@ def write_summary(name: str, cls: pd.DataFrame, ans: pd.DataFrame):
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     name = sys.argv[1] if len(sys.argv) > 1 else "v1"
+    qset = sys.argv[2] if len(sys.argv) > 2 else "main"
     RESULTS.mkdir(parents=True, exist_ok=True)
     mod = load_system(name)
+    if qset != "main":  # 새 질문 세트: 답변만 생성 (분류 테스트는 V2와 동일 로직이라 생략)
+        run_questions(mod, name, qset)
+        return
     cls = run_classify(mod, name)
     ans = run_questions(mod, name)
     write_summary(name, cls, ans)
