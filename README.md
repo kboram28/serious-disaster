@@ -82,7 +82,15 @@ python eval/score_answers.py report        # 종합 리포트
 # 새 질문 세트에서 V2 vs V2.1: 위 명령 뒤에 holdout (예: python eval/run_eval.py v2.1 holdout)
 ```
 
-## 사용 모델
-- 답변·분류·추출: `gpt-5.4-mini` (V1·V2 동일)
-- 임베딩: `text-embedding-3-small`
-- 평가 채점(GPT): `gpt-5.5`
+## 기술 스택
+
+| 구분 | V1 (졸업작품) | V2.2 (재구축) |
+|---|---|---|
+| 웹 | Django (Flask 사용 여부 확인 필요) | Streamlit 1.66, 그래프 Altair 6.3 |
+| LLM | OpenAI GPT-4 | OpenAI `gpt-5.4-mini` (답변·분류·추출·사진 설명), 평가 채점 `gpt-5.5` |
+| 검색 | 사례 전체를 프롬프트에 입력 (재현 기준) | 임베딩 의미 검색: `text-embedding-3-small` + numpy 코사인 유사도 (별도 벡터 DB 없음), 조건 필터는 pandas |
+| 데이터 처리 | 엑셀 수작업 정리 | pandas 3.0, openpyxl 3.1, olefile (hwp 가이드 추출) |
+| 데이터 수집 | 공단 재해사례 수작업 수집 | 공공데이터포털 오픈 API (requests), python-dotenv |
+| 언어·도구 | Python | Python 3.13, git, AI 코딩 도구 Claude Code (Anthropic) |
+
+벡터 DB를 따로 두지 않은 이유: 6,441건 규모에서는 numpy로 전체와 유사도를 계산해도 수 밀리초로 충분하고 설치·운영이 단순함 (결정 기록 [10]).
