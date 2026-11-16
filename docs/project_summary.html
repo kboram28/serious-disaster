@@ -95,7 +95,7 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
     <div class="tablewrap"><table>
       <thead><tr><th>구분</th><th>V1 (졸업작품)</th><th>V2.2 (재구축)</th></tr></thead>
       <tbody>
-        <tr><td>웹</td><td>Django (Flask 사용 여부는 확인 필요)</td><td>Streamlit 1.66, 그래프 Altair 6.3</td></tr>
+        <tr><td>웹</td><td>Django</td><td>Streamlit 1.66, 그래프 Altair 6.3</td></tr>
         <tr><td>LLM</td><td>OpenAI GPT-4</td><td>OpenAI <code>gpt-5.4-mini</code> (답변·분류·추출·사진 설명), 평가 채점 <code>gpt-5.5</code></td></tr>
         <tr><td>검색</td><td>사례 전체를 프롬프트에 입력 (재현 기준)</td><td>임베딩 의미 검색: <code>text-embedding-3-small</code> + numpy 코사인 유사도 (별도 벡터 DB 없음), 조건 필터는 pandas</td></tr>
         <tr><td>데이터 처리</td><td>엑셀 수작업 정리</td><td>pandas 3.0, openpyxl 3.1 (검수표 서식), olefile (hwp 가이드 추출)</td></tr>

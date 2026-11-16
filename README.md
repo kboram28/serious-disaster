@@ -86,7 +86,7 @@ python eval/score_answers.py report        # 종합 리포트
 
 | 구분 | V1 (졸업작품) | V2.2 (재구축) |
 |---|---|---|
-| 웹 | Django (Flask 사용 여부 확인 필요) | Streamlit 1.66, 그래프 Altair 6.3 |
+| 웹 | Django | Streamlit 1.66, 그래프 Altair 6.3 |
 | LLM | OpenAI GPT-4 | OpenAI `gpt-5.4-mini` (답변·분류·추출·사진 설명), 평가 채점 `gpt-5.5` |
 | 검색 | 사례 전체를 프롬프트에 입력 (재현 기준) | 임베딩 의미 검색: `text-embedding-3-small` + numpy 코사인 유사도 (별도 벡터 DB 없음), 조건 필터는 pandas |
 | 데이터 처리 | 엑셀 수작업 정리 | pandas 3.0, openpyxl 3.1, olefile (hwp 가이드 추출) |
