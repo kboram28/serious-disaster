@@ -16,3 +16,7 @@ vectordb/
 
 # 챗봇 사용자 피드백 (질문 내용 포함)
 data/feedback/
+
+
+# 개인 계획 문서
+docs/planning/
