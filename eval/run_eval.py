@@ -13,6 +13,7 @@ ask(질문, history) -> {"answer", "usage"} 를 제공해야 한다.
 사용법
   python eval/run_eval.py v1
   python eval/run_eval.py v2.1 holdout    # 새 질문 세트로 답변만 생성
+  python eval/run_eval.py v2.2 holdout2   # V3 평가용 30문항 (V2.2 기준선)
 """
 import importlib.util
 import json
@@ -28,8 +29,10 @@ ROOT = Path(__file__).resolve().parent.parent
 GOLD = ROOT / "eval/test_gold.csv"
 QUESTIONS = ROOT / "eval/questions.csv"
 RESULTS = ROOT / "eval/results"
-SYSTEMS = {"v1": ROOT / "v1_baseline/v1.py", "v2": ROOT / "v2/rag.py", "v2.1": ROOT / "v2/rag_v21.py"}
-QUESTION_SETS = {"main": ROOT / "eval/questions.csv", "holdout": ROOT / "eval/questions_holdout.csv"}
+SYSTEMS = {"v1": ROOT / "v1_baseline/v1.py", "v2": ROOT / "v2/rag.py", "v2.1": ROOT / "v2/rag_v21.py",
+           "v2.2": ROOT / "v2/rag_v22.py"}
+QUESTION_SETS = {"main": ROOT / "eval/questions.csv", "holdout": ROOT / "eval/questions_holdout.csv",
+                 "holdout2": ROOT / "eval/questions_holdout2.csv"}  # V3 평가용, 수정 금지 (태그 v3-eval-frozen)
 TYPES = ["떨어짐", "끼임", "깔림", "맞음", "부딪힘", "기타"]
 
 
@@ -119,13 +122,16 @@ def run_questions(sys_mod, name: str, qset: str = "main") -> pd.DataFrame:
     # 이전 질문이 없는 것부터 병렬 실행 → 이어지는 질문은 그 다음에
     first = [row for _, row in qs.iterrows() if row["질문ID"] not in done and not row["이전질문ID"]]
     second = [row for _, row in qs.iterrows() if row["질문ID"] not in done and row["이전질문ID"]]
+    # holdout2는 응답 시간(p50·p95)도 기준선으로 쓰므로 동시 호출 없이 하나씩 실행 (동시 실행은 시간이 섞임)
+    workers = 1 if qset == "holdout2" else 4
     with path.open("a", encoding="utf-8") as f:
         for batch in (first, second):
-            with ThreadPoolExecutor(max_workers=4) as pool:
+            with ThreadPoolExecutor(max_workers=workers) as pool:
                 for r in pool.map(work, batch):
                     f.write(json.dumps(r, ensure_ascii=False) + "\n")
                     f.flush()
                     done[r["질문ID"]] = r
+                    print(f"  {r['질문ID']} {r['sec']}초")
     return qs.merge(pd.DataFrame(done.values()).drop(columns="질문"), on="질문ID")
 
 
