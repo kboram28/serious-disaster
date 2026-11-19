@@ -17,7 +17,8 @@
 
 | 폴더 | 내용 |
 |---|---|
-| `v1_baseline/`, `v2/` | V1 재현, V2~V2.2 RAG. **수정 금지** |
+| `v1_baseline/`, `v2/` | V1 재현, V2~V2.2 RAG. **수정 금지** (새 파일 추가는 가능, 예: `v1_baseline/v1_original.py`) |
+| `v1_original/` | 졸업작품 챗봇 원본 코드·실행 캡처 (decisions [24]). 기록 보관용, **수정 금지** |
 | `pipeline/` | 데이터 정제·라벨링 |
 | `collectors/` | 외부 API 수집. 새 수집기(지침·조문·재해사례)도 여기에 추가 |
 | `eval/` | 평가 스크립트·평가셋. V3 평가도 여기에 추가 |
@@ -59,7 +60,7 @@ frontend/        React + TypeScript + Vite
 |---|---|
 | `eval/questions_holdout2.csv`, `eval/retrieval_eval.csv` 수정 | 평가셋 잠금 (decisions [16], 태그 `v3-eval-frozen`) |
 | `eval/test_gold.csv`, 블라인드 채점 파일(`eval/*.xlsx`) 수정 | 사람 정답 보존 |
-| `v1_baseline/`, `v2/` 수정 | 비교 기준 |
+| `v1_baseline/`, `v2/`, `v1_original/`의 기존 파일 수정 | 비교 기준·원본 기록 |
 | `.env`의 값을 코드·문서·대화에 쓰거나 출력 | API 키 보호. 스크립트는 값을 읽기만 하고 출력하지 않는다 |
 | `docs/planning/` 커밋 | 개인 계획 문서 (gitignore) |
 | 사용자 질문 데이터(`data/feedback/` 등) 커밋 | 개인정보 |

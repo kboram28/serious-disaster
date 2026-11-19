@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>안전 사고 정보 챗봇</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .chatbot-container {
+            width: 100%;
+            max-width: 800px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .chat-box {
+            max-height: 600px;
+            overflow-y: auto;
+            margin-bottom: 15px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .user-message, .bot-message {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+        .user-message .message-text {
+            background-color: #d1e7dd;
+            color: #333;
+            border-radius: 8px;
+            padding: 10px;
+            max-width: 80%;
+        }
+        .bot-message .message-text {
+            background-color: #e9ecef;
+            color: #333;
+            border-radius: 8px;
+            padding: 10px;
+            max-width: 80%;
+        }
+        .user-message {
+            justify-content: flex-end;
+        }
+        .bot-message {
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="chatbot-container">
+        <h1 class="text-center mb-4">
+            <a href="/" style="text-decoration: none; color: #000;">안전 사고 정보 챗봇</a>
+        </h1>
+        <div id="chat-box" class="chat-box"></div>
+        <form id="chat-form" class="input-group mb-3" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" id="file-input" name="file" style="display: none;">
+            <input type="text" id="user-input" class="form-control" placeholder="질문을 입력하세요" autocomplete="off">
+            <button type="button" id="upload-button" class="btn btn-secondary">파일 업로드</button>
+            <button type="submit" class="btn btn-success">질문하기</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        let chatHistory = [];
+    
+        document.getElementById("upload-button").addEventListener("click", () => {
+            document.getElementById("file-input").click();
+        });
+
+        document.getElementById("chat-form").onsubmit = async (e) => {
+            e.preventDefault();
+            const userInput = document.getElementById("user-input").value;
+            const fileInput = document.getElementById("file-input").files[0];
+
+            if (!userInput.trim() && !fileInput) {
+                addMessage("질문이나 파일을 입력해주세요.", "bot");
+                return;
+            }
+
+            if (userInput.trim()) {
+                addMessage(userInput, "user");
+            }
+
+            const formData = new FormData();
+            formData.append("text", userInput);
+            if (fileInput) {
+                formData.append("file", fileInput);
+            }
+
+            const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+
+            try {
+                const response = await fetch("/api/chatbot/", {
+                    method: "POST",
+                    headers: { "X-CSRFToken": csrftoken },
+                    body: formData
+                });
+                const data = await response.json();
+
+                if (data.response) {
+                    chatHistory.push({ role: "assistant", content: data.response });
+                    addMessage(data.response, "bot");
+                } else if (data.error) {
+                    addMessage("오류가 발생했습니다: " + data.error, "bot");
+                }
+            } catch (error) {
+                addMessage("서버에 연결할 수 없습니다. 나중에 다시 시도해 주세요.", "bot");
+            }
+        };
+
+        function addMessage(message, type) {
+            const chatBox = document.getElementById("chat-box");
+            const messageElement = document.createElement("div");
+            messageElement.classList.add(type === "user" ? "user-message" : "bot-message");
+
+            const formattedMessage = formatBotMessage(message);
+            const textElement = document.createElement("div");
+            textElement.classList.add("message-text");
+            textElement.innerHTML = formattedMessage;
+
+            messageElement.appendChild(textElement);
+            chatBox.appendChild(messageElement);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function formatBotMessage(message) {
+            if (message.includes("사례는 다음과 같습니다:")) {
+                const parts = message.split("\n").map(part => part.trim());
+                const header = parts.shift();
+                const formattedCases = parts
+                    .filter(part => part.trim() !== "")
+                    .map((part, index) => `${index + 1}. ${part}`)
+                    .join("<br><br>");
+                return `${header}<br><br>${formattedCases}`;
+            }
+            return message.replace(/\n/g, "<br>");
+        }
+    </script>
+</body>
+</html>
