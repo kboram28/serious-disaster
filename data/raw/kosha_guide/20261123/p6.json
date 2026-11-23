@@ -1,0 +1,615 @@
+{
+ "body": {
+  "pageNo": 6,
+  "totalCount": 1039,
+  "numOfRows": 100,
+  "items": {
+   "item": [
+    {
+     "techGdlnNm": "방폭전기기계기구 제조자 품질경영시스템 적용에 관한 기술지침",
+     "techGdlnNo": "E-158-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834712117492005/3"
+    },
+    {
+     "techGdlnNm": "특수전력시스템 설치에 관한 기술지침",
+     "techGdlnNo": "E-163-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834772117551092/3"
+    },
+    {
+     "techGdlnNm": "특정용도의 전기기계·기구 설치에 관한 기술지침",
+     "techGdlnNo": "E-164-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834782117569947/3"
+    },
+    {
+     "techGdlnNm": "병원전기설비 설치에 관한 기술지침",
+     "techGdlnNo": "E-168-2018",
+     "techGdlnOfancYmd": "2018-10-11",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834822117605561/3"
+    },
+    {
+     "techGdlnNm": "태양광 발전설비 설치에 관한 기술지침",
+     "techGdlnNo": "E-170-2023",
+     "techGdlnOfancYmd": "2023-08-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00020454757510121488/2"
+    },
+    {
+     "techGdlnNm": "스플레쉬필링으로 인한 정전기 화재사고 예방에 관한 기술지침",
+     "techGdlnNo": "E-171-2018",
+     "techGdlnOfancYmd": "2018-10-11",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834862117645297/5"
+    },
+    {
+     "techGdlnNm": "정전기 대전 방지용 손목 스트랩의 시험방법에 관한 기술지침",
+     "techGdlnNo": "E-173-2018",
+     "techGdlnOfancYmd": "2018-11-05",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834882117664063/3"
+    },
+    {
+     "techGdlnNm": "폭발위험장소에서의 정전기 관련 물성 측정에 관한 기술지침",
+     "techGdlnNo": "E-178-2020",
+     "techGdlnOfancYmd": "2020-12-15",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000159748982535369921/2"
+    },
+    {
+     "techGdlnNm": "정전기 오염방지에 관한 기술지침",
+     "techGdlnNo": "E-179-2020",
+     "techGdlnOfancYmd": "2020-12-15",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000159750162535484512/2"
+    },
+    {
+     "techGdlnNm": "폭발위험장소에서 사용하는 비전기설비의 안전에 관한 기술지침",
+     "techGdlnNo": "E-181-2020",
+     "techGdlnOfancYmd": "2020-12-15",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000159750222535504048/2"
+    },
+    {
+     "techGdlnNm": "정전기에 의한 화재.폭발 재해조사에 대한 기술지침",
+     "techGdlnNo": "E-182-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000163785183184129897/3"
+    },
+    {
+     "techGdlnNm": "휴대형 전기톱 사용 시 인체 보호구에 관한 기술지침",
+     "techGdlnNo": "E-184-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000163785553184224162/3"
+    },
+    {
+     "techGdlnNm": "리튬 이온 에너지저장장치(Electric Storage System) 설치 및 유지보수에 관한 기술지침",
+     "techGdlnNo": "E-185-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000163785643184265739/3"
+    },
+    {
+     "techGdlnNm": "폭발위험장소에서 전기설비 사용자의 역량평가를 위한 기술기준",
+     "techGdlnNo": "E-186-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000163785713184285169/3"
+    },
+    {
+     "techGdlnNm": "폭발위험장소에서의 가스감지기 사용에 관한 기술지침",
+     "techGdlnNo": "E-187-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000163785883184311672/3"
+    },
+    {
+     "techGdlnNm": "정전기 재해예방에 관한 기술지침",
+     "techGdlnNo": "E-188-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000163785763184299698/3"
+    },
+    {
+     "techGdlnNm": "절연용 (고무)보호구의 선정, 사용 및 관리 등에 관한 기술지침",
+     "techGdlnNo": "E-189-2022",
+     "techGdlnOfancYmd": "2022-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000201255294225804110/2"
+    },
+    {
+     "techGdlnNm": "근골격계질환 예방에 관한 기술지원규정",
+     "techGdlnNo": "E-G-1-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213801877603017620/4"
+    },
+    {
+     "techGdlnNm": "직무스트레스로 인한 건강장해 예방 기술지원규정",
+     "techGdlnNo": "E-G-2-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213802047603092476/3"
+    },
+    {
+     "techGdlnNm": "영상표시단말기를 사용하는 사무환경 관리에 관한 기술지원규정",
+     "techGdlnNo": "E-G-3-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213802147603167899/3"
+    },
+    {
+     "techGdlnNm": "근골격계질환 예방을 위한 업종·직종별 기술지원규정",
+     "techGdlnNo": "E-G-4-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213802157603173124/3"
+    },
+    {
+     "techGdlnNm": "직무스트레스로 인한 건강장해 예방을 위한 업종별·직종별 기술지원규정",
+     "techGdlnNo": "E-G-5-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213802227603214650/3"
+    },
+    {
+     "techGdlnNm": "건강한 사무환경 구축 기술지원규정",
+     "techGdlnNo": "E-G-6-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213802327603306247/3"
+    },
+    {
+     "techGdlnNm": "폐기물 소각시설의 작업관리 기술지원규정",
+     "techGdlnNo": "E-G-7-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213802587603516941/3"
+    },
+    {
+     "techGdlnNm": "잠수용 기압조절실에 관한 기술지원규정",
+     "techGdlnNo": "E-G-8-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914441633107896/2"
+    },
+    {
+     "techGdlnNm": "잠수용 비상기체통에 관한 기술지원규정",
+     "techGdlnNo": "E-G-9-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914452332069337/2"
+    },
+    {
+     "techGdlnNm": "잠수용 생명줄에 관한 기술지원규정",
+     "techGdlnNo": "E-G-10-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914465281763022/2"
+    },
+    {
+     "techGdlnNm": "공기잠수 감압에 관한 기술지원규정",
+     "techGdlnNo": "E-G-11-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914472960648051/3"
+    },
+    {
+     "techGdlnNm": "잠수용 기압조절실을 이용한 치료표 운용에 관한 기술지원규정",
+     "techGdlnNo": "E-G-12-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914482096396000/2"
+    },
+    {
+     "techGdlnNm": "잠수용 호흡기체질 및 분압에 관한 기술지원규정",
+     "techGdlnNo": "E-G-13-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914490951997258/2"
+    },
+    {
+     "techGdlnNm": "잠수기어업 표면공급식 잠수작업에 관한 기술지원규정",
+     "techGdlnNo": "E-G-14-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914495072078350/2"
+    },
+    {
+     "techGdlnNm": "잠수작업 보건관리에 관한 기술지원규정",
+     "techGdlnNo": "E-G-15-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914502762165256/2"
+    },
+    {
+     "techGdlnNm": "잠수작업 안전관리에 관한 기술지원규정",
+     "techGdlnNo": "E-G-16-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914511291418511/2"
+    },
+    {
+     "techGdlnNm": "생식독성물질 취급 사업장의 보건관리에 관한 기술지원규정",
+     "techGdlnNo": "E-G-17-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914531267047569/2"
+    },
+    {
+     "techGdlnNm": "밀폐공간 작업프로그램 수립 및 시행에 관한 기술지원규정",
+     "techGdlnNo": "E-G-18-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914540778798257/3"
+    },
+    {
+     "techGdlnNm": "호흡보호구의 선정·사용 및 관리에 관한 기술지원규정",
+     "techGdlnNo": "E-G-19-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914545778028675/3"
+    },
+    {
+     "techGdlnNm": "건축물 등의 석면조사에 관한 기술지원규정",
+     "techGdlnNo": "E-G-20-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914553918389923/2"
+    },
+    {
+     "techGdlnNm": "산업환기설비에 관한 기술지원규정",
+     "techGdlnNo": "E-G-21-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914565797454971/4"
+    },
+    {
+     "techGdlnNm": "고열작업환경에 관한 기술지원규정",
+     "techGdlnNo": "E-G-22-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914581116585834/2"
+    },
+    {
+     "techGdlnNm": "작업자의 진동 제어 및 건강 예방에 관한 기술지원규정",
+     "techGdlnNo": "E-G-23-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914590239872065/2"
+    },
+    {
+     "techGdlnNm": "탄화수소(끓는점 36~216℃)에 대한 작업환경측정·분석 기술지원규정",
+     "techGdlnNo": "E-H-1-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213802957603835396/3"
+    },
+    {
+     "techGdlnNm": "포스핀에 대한 작업환경측정·분석 기술지원규정",
+     "techGdlnNo": "E-H-2-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213802827603731787/3"
+    },
+    {
+     "techGdlnNm": "무수 말레산에 대한 작업환경측정·분석 기술지원규정",
+     "techGdlnNo": "E-H-3-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803087603897995/3"
+    },
+    {
+     "techGdlnNm": "유해인자 허용기준 이하 유지 유해인자에 대한 작업환경측정·분석에 관한 기술지원규정",
+     "techGdlnNo": "E-H-4-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915020676149779/4"
+    },
+    {
+     "techGdlnNm": "청력보존프로그램의 수립·시행에 관한 기술지원규정",
+     "techGdlnNo": "E-M-1-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803307604053189/3"
+    },
+    {
+     "techGdlnNm": "소음성난청으로 진단된 근로자의 의학적 관리를 위한 기술지원규정",
+     "techGdlnNo": "E-M-2-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803397604116448/3"
+    },
+    {
+     "techGdlnNm": "병·의원 종사자의 주사침 등에 의한 손상예방 기술지원규정",
+     "techGdlnNo": "E-M-3-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803637604251278/4"
+    },
+    {
+     "techGdlnNm": "혈액원성 병원체에 의한 건강장해 예방 기술지원규정",
+     "techGdlnNo": "E-M-4-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803687604281534/3"
+    },
+    {
+     "techGdlnNm": "의료기관 근로자의 화학물질 노출 관리에 관한 보건관리 기술지원규정",
+     "techGdlnNo": "E-M-5-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803757604336576/3"
+    },
+    {
+     "techGdlnNm": "생물학적 노출지표물질 (유기화합물_1차 검사항목)분석에 관한 기술지원규정",
+     "techGdlnNo": "E-M-6-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915042688753443/2"
+    },
+    {
+     "techGdlnNm": "생물학적 노출지표물질 (유기화합물_2차 및 권장 검사항목)분석에 관한 기술지원규정",
+     "techGdlnNo": "E-M-7-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915061391327272/2"
+    },
+    {
+     "techGdlnNm": "생체시료 채취 및 관리에 관한 기술지원규정",
+     "techGdlnNo": "E-M-8-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915073877440947/2"
+    },
+    {
+     "techGdlnNm": "화학물질의 피부자극성/부식성시험 기술지원규정",
+     "techGdlnNo": "E-T-1-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213804087604607393/3"
+    },
+    {
+     "techGdlnNm": "화학물질의 급성흡입독성시험(독성등급법) 기술지원규정",
+     "techGdlnNo": "E-T-2-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213804217604689748/3"
+    },
+    {
+     "techGdlnNm": "화학물질의 피부감작성 평가를 위한 국소림프절시험 기술지원규정",
+     "techGdlnNo": "E-T-3-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213804527604865409/3"
+    },
+    {
+     "techGdlnNm": "화학물질의 독성시험을 위한 동물실험윤리위원회 운영 기술지원규정",
+     "techGdlnNo": "E-T-4-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213804587604881141/3"
+    },
+    {
+     "techGdlnNm": "신규화학물질의 유해성·위험성 조사 및 검토에 관한 기술지원규정",
+     "techGdlnNo": "E-T-5-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915092685779378/2"
+    },
+    {
+     "techGdlnNm": "동물실험 계획의 심의에 관한 기술지원규정",
+     "techGdlnNo": "E-T-6-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915101977731867/2"
+    },
+    {
+     "techGdlnNm": "화학물질의 혼합 만성독성/발암성시험 기술지원규정",
+     "techGdlnNo": "E-T-7-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915105656108619/2"
+    },
+    {
+     "techGdlnNm": "화학물질의 아급성(28일) 경구 및 흡입독성시험에 관한 기술지원규정",
+     "techGdlnNo": "E-T-8-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915122885408681/2"
+    },
+    {
+     "techGdlnNm": "화학물질에 의한 생체 외 포유류 세포의 유전자돌연변이시험(Hprt 및 Xprt 유전자 변이)에 관한 기술지원규정",
+     "techGdlnNo": "E-T-9-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915135485521335/2"
+    },
+    {
+     "techGdlnNm": "목재가공시설의 화재 폭발 예방기준",
+     "techGdlnNo": "F-2-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835822118602399/3"
+    },
+    {
+     "techGdlnNm": "경질폴리우레탄폼 취급시 화재예방에 관한 기술지침",
+     "techGdlnNo": "F-3-2014",
+     "techGdlnOfancYmd": "2014-07-21",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835832118614983/3"
+    },
+    {
+     "techGdlnNm": "소용량 탱크 및 드럼의 화기작업에 관한 안전지침",
+     "techGdlnNo": "G-1-2023",
+     "techGdlnOfancYmd": "2023-08-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000204542425099339012/2"
+    },
+    {
+     "techGdlnNm": "배관내 이송물질 표시에 관한 안전가이드",
+     "techGdlnNo": "G-4-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836432119218075/3"
+    },
+    {
+     "techGdlnNm": "업무상 사고조사에 관한 기술지침",
+     "techGdlnNo": "G-5-2017",
+     "techGdlnOfancYmd": "2017-12-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836502119283479/3"
+    },
+    {
+     "techGdlnNm": "산업폐기물 처리사업장에 관한 안전가이드",
+     "techGdlnNo": "G-6-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836592119371527/3"
+    },
+    {
+     "techGdlnNm": "위험물질 취급작업장 위험표시에 관한 기술지침",
+     "techGdlnNo": "G-9-2013",
+     "techGdlnOfancYmd": "2013-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836902119681650/5"
+    },
+    {
+     "techGdlnNm": "작업장 내 운반차량의 운행에 관한 안전지침",
+     "techGdlnNo": "G-10-2023",
+     "techGdlnOfancYmd": "2023-08-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000204542995099534801/2"
+    },
+    {
+     "techGdlnNm": "넘어짐 방지를 위한 위험관리 기술지침",
+     "techGdlnNo": "G-11-2017",
+     "techGdlnOfancYmd": "2017-12-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835962118745738/3"
+    },
+    {
+     "techGdlnNm": "기계적 진동과 충격의 임상실험에 대한 안전가이드",
+     "techGdlnNo": "G-14-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836182118963154/3"
+    },
+    {
+     "techGdlnNm": "압축공기의 안전한 사용에 관한 기술지침",
+     "techGdlnNo": "G-17-2017",
+     "techGdlnOfancYmd": "2017-12-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836202118981906/3"
+    },
+    {
+     "techGdlnNm": "철강 및 금속 자재의 보관.취급에 관한 안전가이드",
+     "techGdlnNo": "G-20-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836242119027763/3"
+    },
+    {
+     "techGdlnNm": "요양 후 복직 시의 재적응에 관한 안전가이드",
+     "techGdlnNo": "G-23-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836262119044522/3"
+    },
+    {
+     "techGdlnNm": "기계류의 방사성 물질로부터 위험을 줄이기 위한 안전가이드",
+     "techGdlnNo": "G-24-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836272119055044/3"
+    },
+    {
+     "techGdlnNm": "사업장의 조명에 관한 기술지침",
+     "techGdlnNo": "G-26-2013",
+     "techGdlnOfancYmd": "2013-08-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836292119072460/3"
+    },
+    {
+     "techGdlnNm": "요양시설의 안전에 관한 기술지침",
+     "techGdlnNo": "G-28-2016",
+     "techGdlnOfancYmd": "2016-08-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836312119096645/3"
+    },
+    {
+     "techGdlnNm": "굴착작업시 지하 매설물 위험방지를 위한 기술지침",
+     "techGdlnNo": "G-29-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836322119105753/3"
+    },
+    {
+     "techGdlnNm": "임산부 근로자의 유해,위험요인 관리에 관한 기술지침",
+     "techGdlnNo": "G-32-2016",
+     "techGdlnOfancYmd": "2016-06-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836352119131423/3"
+    },
+    {
+     "techGdlnNm": "도기 생산 시 건강 유해물질 관리 기술지침",
+     "techGdlnNo": "G-34-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836372119155095/3"
+    },
+    {
+     "techGdlnNm": "안전보건표지에 관한 기술지침",
+     "techGdlnNo": "G-36-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015883639211917928/3"
+    },
+    {
+     "techGdlnNm": "근로자의 일반적인 건강관리에 관한 지침",
+     "techGdlnNo": "G-37-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015883640211918707/3"
+    },
+    {
+     "techGdlnNm": "해상운송을 위한 포장, 운반 및 선적에 관한 기술지침",
+     "techGdlnNo": "G-40-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836442119226883/3"
+    },
+    {
+     "techGdlnNm": "훈증작업 시 유해물질의 관리에 관한 기술지침",
+     "techGdlnNo": "G-41-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836452119239280/3"
+    },
+    {
+     "techGdlnNm": "수공구 사용 안전지침",
+     "techGdlnNo": "G-44-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836462119244263/3"
+    },
+    {
+     "techGdlnNm": "촬영작업 안전에 관한 기술지침",
+     "techGdlnNo": "G-47-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836482119266748/3"
+    },
+    {
+     "techGdlnNm": "액상유체 이송용 배관 시공 안전에 관한 기술지침",
+     "techGdlnNo": "G-52-2017",
+     "techGdlnOfancYmd": "2017-12-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836512119296638/5"
+    },
+    {
+     "techGdlnNm": "공연 및 체육 행사 개최 시 안전에 관한 지침",
+     "techGdlnNo": "G-53-2013",
+     "techGdlnOfancYmd": "2013-08-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836522119303457/3"
+    },
+    {
+     "techGdlnNm": "차량 경정비 작업안전에 관한 기술지침",
+     "techGdlnNo": "G-55-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836542119324409/3"
+    },
+    {
+     "techGdlnNm": "건물 관리 작업 시 안전보건에 관한 기술지침",
+     "techGdlnNo": "G-60-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836602119386037/3"
+    },
+    {
+     "techGdlnNm": "벌목작업 현장의 응급처치에 관한 지침",
+     "techGdlnNo": "G-64-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836642119426469/3"
+    },
+    {
+     "techGdlnNm": "장애인 근로자의 안전작업에 관한 지침",
+     "techGdlnNo": "G-65-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836652119433631/3"
+    },
+    {
+     "techGdlnNm": "외국인 근로자의 안전작업에 관한 지침",
+     "techGdlnNo": "G-66-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836662119444449/3"
+    },
+    {
+     "techGdlnNm": "건물 외벽 청소 작업에 관한 기술지침",
+     "techGdlnNo": "G-67-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836672119458870/3"
+    },
+    {
+     "techGdlnNm": "동물원 근로자의 안전작업에 관한 지침",
+     "techGdlnNo": "G-70-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836712119494584/3"
+    },
+    {
+     "techGdlnNm": "안전보건 벤치마킹에 관한 기술지침",
+     "techGdlnNo": "G-71-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836722119506420/3"
+    },
+    {
+     "techGdlnNm": "소 사육장 내에서의 안전지침",
+     "techGdlnNo": "G-73-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836742119528782/3"
+    },
+    {
+     "techGdlnNm": "공기재킷의 제작 사용에 관한 기술지침",
+     "techGdlnNo": "G-76-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836762119542608/3"
+    },
+    {
+     "techGdlnNm": "유해위험물 탱크로리의 검사 및 입출하 등에 관한 기술지침",
+     "techGdlnNo": "G-78-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836782119569503/8"
+    },
+    {
+     "techGdlnNm": "실험실 안전보건에 관한 기술지침",
+     "techGdlnNo": "G-82-2018",
+     "techGdlnOfancYmd": "2018-11-05",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158836822119609488/3"
+    }
+   ]
+  }
+ },
+ "header": {
+  "resultCode": "00",
+  "resultMsg": "NORMAL_CODE"
+ }
+}

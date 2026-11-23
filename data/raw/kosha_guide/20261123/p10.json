@@ -1,0 +1,615 @@
+{
+ "body": {
+  "pageNo": 10,
+  "totalCount": 1039,
+  "numOfRows": 100,
+  "items": {
+   "item": [
+    {
+     "techGdlnNm": "클린룸의 안전관리에 관한 기술지침",
+     "techGdlnNo": "P-46-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842002124737210/3"
+    },
+    {
+     "techGdlnNm": "자동차용 수소연료전지 시스템의 안전에 관한 기술지침",
+     "techGdlnNo": "P-47-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842012124741983/6"
+    },
+    {
+     "techGdlnNm": "압축가스 실린더의 압력방출장치에 관한 기술지침",
+     "techGdlnNo": "P-48-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842022124758534/3"
+    },
+    {
+     "techGdlnNm": "분진폭발위험이 있는 설비의 공정시스템 선정에 관한 기술지침",
+     "techGdlnNo": "P-49-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842032124765998/3"
+    },
+    {
+     "techGdlnNm": "유해 폐기물 취급 및 비상대응에 관한 기술지침",
+     "techGdlnNo": "P-50-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842052124788899/3"
+    },
+    {
+     "techGdlnNm": "공장 및 장치의 안전격리에 관한 기술지침",
+     "techGdlnNo": "P-52-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842072124804250/3"
+    },
+    {
+     "techGdlnNm": "발열반응 공정의 사고 예방 및 방호에 관한 기술지침",
+     "techGdlnNo": "P-53-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842082124811528/3"
+    },
+    {
+     "techGdlnNm": "아세틸렌 제조 및 충전 공정의 안전관리에 관한 기술지침",
+     "techGdlnNo": "P-54-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842092124825644/3"
+    },
+    {
+     "techGdlnNm": "황을 사용하는 공정의 화재 및 폭발 방지에 관한 기술지침",
+     "techGdlnNo": "P-55-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842102124835352/3"
+    },
+    {
+     "techGdlnNm": "발포플라스틱의 보관 시 화재예방 기술지침",
+     "techGdlnNo": "P-56-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842112124842384/1"
+    },
+    {
+     "techGdlnNm": "사업장의 방화문 및 내화창 안전관리 기술지침",
+     "techGdlnNo": "P-57-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842122124857687/3"
+    },
+    {
+     "techGdlnNm": "위험물질 사고대응에 관한 기술지침",
+     "techGdlnNo": "P-58-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842132124864508/3"
+    },
+    {
+     "techGdlnNm": "염산 및 질산의 탱크 저장에 관한 기술지침",
+     "techGdlnNo": "P-59-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842142124878727/3"
+    },
+    {
+     "techGdlnNm": "암모니아 냉매설비의 안전관리 기술지침",
+     "techGdlnNo": "P-60-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884216212489637/3"
+    },
+    {
+     "techGdlnNm": "유기도료 제조설비의 안전관리 기술지침",
+     "techGdlnNo": "P-62-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842182124917841/3"
+    },
+    {
+     "techGdlnNm": "공기조화 및 환기설비의 안전관리 기술지침",
+     "techGdlnNo": "P-63-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842192124922826/3"
+    },
+    {
+     "techGdlnNm": "정유 및 석유화학 공정에서 황화철 취급에 관한 안전관리 기술지침",
+     "techGdlnNo": "P-64-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842202124937988/3"
+    },
+    {
+     "techGdlnNm": "폭주반응에 대비한 파열판 크기 산출에 관한 기술지침",
+     "techGdlnNo": "P-65-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842212124943721/6"
+    },
+    {
+     "techGdlnNm": "알루미늄 분진의 폭발방지에 관한 기술지침",
+     "techGdlnNo": "P-68-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842242124974/6"
+    },
+    {
+     "techGdlnNm": "옥외 꽃불공연에 관한 안전기술지침",
+     "techGdlnNo": "P-72-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842292125022557/3"
+    },
+    {
+     "techGdlnNm": "포장된 위험물의 창고저장에 관한 기술지침",
+     "techGdlnNo": "P-74-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842312125046081/3"
+    },
+    {
+     "techGdlnNm": "인화성 액체의 안전한 사용 및 취급에 관한 기술지침",
+     "techGdlnNo": "P-75-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842322125051219/3"
+    },
+    {
+     "techGdlnNm": "화학물질을 사용하는 실험실 내의 작업 및 설비안전 기술지침",
+     "techGdlnNo": "P-76-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842332125065846/3"
+    },
+    {
+     "techGdlnNm": "원격차단밸브의 선정 및 설치에 관한 기술지침",
+     "techGdlnNo": "P-77-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842342125071710/3"
+    },
+    {
+     "techGdlnNm": "기계공장에 대한 위험과 운전분석기법(M-HAZOP)",
+     "techGdlnNo": "P-79-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842362125094857/2"
+    },
+    {
+     "techGdlnNm": "휘발성 유기화합물(VOC) 처리에 관한 기술지침",
+     "techGdlnNo": "P-104-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841012123742661/3"
+    },
+    {
+     "techGdlnNm": "유기과산화물 및 그 제제의 저장에 관한 기술지침",
+     "techGdlnNo": "P-109-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841062123797002/3"
+    },
+    {
+     "techGdlnNm": "마그네슘 분진폭발 예방에 관한 기술지침",
+     "techGdlnNo": "P-112-2014",
+     "techGdlnOfancYmd": "2014-07-21",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841102123838458/3"
+    },
+    {
+     "techGdlnNm": "화학설비 및 부속설비에서 정전기의 계측 제어에 관한 기술지침",
+     "techGdlnNo": "P-114-2020",
+     "techGdlnOfancYmd": "2020-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841122123854983/5"
+    },
+    {
+     "techGdlnNm": "정유 및 석유화학 공장의 소방설비에 관한 기술지침",
+     "techGdlnNo": "P-115-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841132123864789/3"
+    },
+    {
+     "techGdlnNm": "경보시스템의 효율적인 관리에 관한 기술지침",
+     "techGdlnNo": "P-116-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841142123872154/3"
+    },
+    {
+     "techGdlnNm": "화학보호의의 선정, 사용 및 유지에 관한 기술지침",
+     "techGdlnNo": "P-117-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884115212388712/3"
+    },
+    {
+     "techGdlnNm": "설계 및 재설계 과정에서의 재해예방 기술지침",
+     "techGdlnNo": "P-120-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841192123925310/3"
+    },
+    {
+     "techGdlnNm": "공기분리설비의 안전설계 및 운전에 관한 기술지침",
+     "techGdlnNo": "P-121-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841202123934744/3"
+    },
+    {
+     "techGdlnNm": "반도체 공정에서 가스를 취급하는 벌크시스템의 안전에 관한 기술지침",
+     "techGdlnNo": "P-122-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884121212394303/3"
+    },
+    {
+     "techGdlnNm": "공업용 가열로의 안전에 관한 기술지침",
+     "techGdlnNo": "P-123-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841222123954308/3"
+    },
+    {
+     "techGdlnNm": "이황화탄소 드럼작업에 관한 기술지침",
+     "techGdlnNo": "P-126-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841252123983807/3"
+    },
+    {
+     "techGdlnNm": "금속분진 취급 공정의 화재폭발예방에 관한 기술지침",
+     "techGdlnNo": "P-128-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841272124005562/3"
+    },
+    {
+     "techGdlnNm": "화학공장 계측기의 관리 및 점검에 관한 기술지침",
+     "techGdlnNo": "P-129-2013",
+     "techGdlnOfancYmd": "2013-07-19",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL0001588412821240145/3"
+    },
+    {
+     "techGdlnNm": "화학공정에서의 분진폭발 방지에 관한 기술지침",
+     "techGdlnNo": "P-131-2013",
+     "techGdlnOfancYmd": "2013-07-19",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884130212403314/3"
+    },
+    {
+     "techGdlnNm": "화학공장의 혼합공정에서 화재 및 폭발 예방에 관한 기술지침",
+     "techGdlnNo": "P-132-2013",
+     "techGdlnOfancYmd": "2013-07-19",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841312124042841/3"
+    },
+    {
+     "techGdlnNm": "화학공장의 인터록 관리에 관한 기술지침",
+     "techGdlnNo": "P-133-2013",
+     "techGdlnOfancYmd": "2013-10-02",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841322124059389/3"
+    },
+    {
+     "techGdlnNm": "설비 배치에 관한 기술지침",
+     "techGdlnNo": "P-134-2013",
+     "techGdlnOfancYmd": "2013-10-02",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841332124063325/3"
+    },
+    {
+     "techGdlnNm": "산소 검지경보기 등의 설치 및 보수에 관한 기술지침",
+     "techGdlnNo": "P-137-2018",
+     "techGdlnOfancYmd": "2018-06-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884136212409203/3"
+    },
+    {
+     "techGdlnNm": "산소 과잉 분위기의 화재 위험성 및 방지대책에 관한 기술지침",
+     "techGdlnNo": "P-138-2013",
+     "techGdlnOfancYmd": "2013-11-25",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841372124105009/3"
+    },
+    {
+     "techGdlnNm": "가스용기의 비상조치방법에 관한 기술지침",
+     "techGdlnNo": "P-139-2013",
+     "techGdlnOfancYmd": "2013-11-25",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841382124114774/3"
+    },
+    {
+     "techGdlnNm": "히드록실아민의 화재폭발 예방에 관한 기술지침",
+     "techGdlnNo": "P-142-2014",
+     "techGdlnOfancYmd": "2014-07-21",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841422124155627/3"
+    },
+    {
+     "techGdlnNm": "용해로의 설치 및 유지보수에 관한 기술지침",
+     "techGdlnNo": "P-143-2014",
+     "techGdlnOfancYmd": "2014-11-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841432124169267/3"
+    },
+    {
+     "techGdlnNm": "농산물 및 식료품 공정의 분진 화재·폭발예방에 관한 기술지침",
+     "techGdlnNo": "P-144-2014",
+     "techGdlnOfancYmd": "2014-11-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841442124176086/3"
+    },
+    {
+     "techGdlnNm": "화학공장 폐수 집수조의 안전조치에 관한 기술지침",
+     "techGdlnNo": "P-148-2015",
+     "techGdlnOfancYmd": "2015-12-07",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841482124217033/3"
+    },
+    {
+     "techGdlnNm": "저장캐비닛의 가스 실린더 보관에 관한 기술지침",
+     "techGdlnNo": "P-149-2016",
+     "techGdlnOfancYmd": "2016-06-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841492124225304/3"
+    },
+    {
+     "techGdlnNm": "독성가스 취급시설 등의 안전관리에 관한 기술지침",
+     "techGdlnNo": "P-153-2016",
+     "techGdlnOfancYmd": "2016-12-19",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841542124277805/3"
+    },
+    {
+     "techGdlnNm": "하수슬러지 탄화공정의 안전작업에 관한 기술지침",
+     "techGdlnNo": "P-156-2017",
+     "techGdlnOfancYmd": "2017-05-22",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841572124305164/3"
+    },
+    {
+     "techGdlnNm": "장거리 이송배관 안전관리에 관한 기술지침",
+     "techGdlnNo": "P-158-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841592124324399/3"
+    },
+    {
+     "techGdlnNm": "산소 및 불활성 기체의 대기벤트 설계에 관한 기술지침",
+     "techGdlnNo": "P-159-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841602124339938/3"
+    },
+    {
+     "techGdlnNm": "니트로셀룰로오스의 저장 및 취급에 관한 기술지침",
+     "techGdlnNo": "P-160-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884162212435623/3"
+    },
+    {
+     "techGdlnNm": "폐용제 정제공정의 안전에 관한 기술지침",
+     "techGdlnNo": "P-161-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884163212436466/3"
+    },
+    {
+     "techGdlnNm": "정유 및 석유화학 산업의 고정식 물분무설비(Water spray system)의 설계 등에 관한 기술지침",
+     "techGdlnNo": "P-162-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841642124373125/3"
+    },
+    {
+     "techGdlnNm": "연구실험용 파일럿플렌트(Pilot plant)의 안전에 관한 기술지침",
+     "techGdlnNo": "P-164-2018",
+     "techGdlnOfancYmd": "2018-06-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841662124396541/3"
+    },
+    {
+     "techGdlnNm": "인화성물질 상압저장탱크의 안전작업에 관한 기술지침",
+     "techGdlnNo": "P-165-2019",
+     "techGdlnOfancYmd": "2019-12-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158841672124405389/3"
+    },
+    {
+     "techGdlnNm": "화학물질의 취급 및 시료채취 등에 관한 기술지침",
+     "techGdlnNo": "P-167-2020",
+     "techGdlnOfancYmd": "2020-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000159881632555137119/2"
+    },
+    {
+     "techGdlnNm": "산소 배관 및 배관설비에 관한 기술지침",
+     "techGdlnNo": "P-170-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000163786423184415765/3"
+    },
+    {
+     "techGdlnNm": "자동버너 제어설비의 안전에 관한 기술지침",
+     "techGdlnNo": "P-171-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000163786453184422319/3"
+    },
+    {
+     "techGdlnNm": "수소 취급설비의 안전에 관한 기술지침",
+     "techGdlnNo": "P-173-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000163786833184495016/3"
+    },
+    {
+     "techGdlnNm": "수소 분리 및 정제를 위한 압력변환흡착(PSA) 시스템의 안전에 관한 기술지침",
+     "techGdlnNo": "P-178-2022",
+     "techGdlnOfancYmd": "2022-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000201240684221168523/2"
+    },
+    {
+     "techGdlnNm": "혼합가스의 폭발성 여부 판정 및 폭발하한계 산정에 관한 기술지침",
+     "techGdlnNo": "P-179-2022",
+     "techGdlnOfancYmd": "2022-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000201240894221222780/2"
+    },
+    {
+     "techGdlnNm": "폐합성수지 열분해 공정의 안전관리에 관한 기술지침",
+     "techGdlnNo": "P-180-2023",
+     "techGdlnOfancYmd": "2023-08-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000204548705101439320/2"
+    },
+    {
+     "techGdlnNm": "제조나노물질의 건강유해성시험 시료의 적정용량 조제를 위한 해설지침",
+     "techGdlnNo": "T-3-2015",
+     "techGdlnOfancYmd": "2015-09-03",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842812125546114/3"
+    },
+    {
+     "techGdlnNm": "화학물질의 90일 반복흡입독성시험 기술지침",
+     "techGdlnNo": "T-4-2022",
+     "techGdlnOfancYmd": "2022-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000201240724221185746/2"
+    },
+    {
+     "techGdlnNm": "화학물질의 태자발달 독성시험 기술지침",
+     "techGdlnNo": "T-5-2017",
+     "techGdlnOfancYmd": "2017-10-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884284212557648/3"
+    },
+    {
+     "techGdlnNm": "화학물질의 생식 및 발생독성 스크리닝시험 기술지침",
+     "techGdlnNo": "T-6-2017",
+     "techGdlnOfancYmd": "2017-10-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842852125588764/3"
+    },
+    {
+     "techGdlnNm": "화학물질의 시험관내 포유류 세포 소핵시험 기술지침",
+     "techGdlnNo": "T-7-2020",
+     "techGdlnOfancYmd": "2020-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842862125596820/5"
+    },
+    {
+     "techGdlnNm": "생체시료 중 석면소체 및 석면섬유 분석지침",
+     "techGdlnNo": "T-9-2016",
+     "techGdlnOfancYmd": "2016-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842882125617446/3"
+    },
+    {
+     "techGdlnNm": "시험동물 관리지침",
+     "techGdlnNo": "T-12-2022",
+     "techGdlnOfancYmd": "2022-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000201240964221246932/2"
+    },
+    {
+     "techGdlnNm": "화학물질의 유전독성 평가를 위한 단세포 겔 전기영동시험 지침",
+     "techGdlnNo": "T-16-2021",
+     "techGdlnOfancYmd": "2021-10-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842662125393974/6"
+    },
+    {
+     "techGdlnNm": "화학물질의 유전독성 평가를 위한 포유류 골수세포 염색체이상시험 지침",
+     "techGdlnNo": "T-17-2021",
+     "techGdlnOfancYmd": "2021-10-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842672125407247/6"
+    },
+    {
+     "techGdlnNm": "화학물질의 고정용량법에 의한 급성경구독성시험 기술지침",
+     "techGdlnNo": "T-19-2020",
+     "techGdlnOfancYmd": "2020-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842692125424310/6"
+    },
+    {
+     "techGdlnNm": "화학물질의 급성 눈 부식성 및 자극성 시험 기술지침",
+     "techGdlnNo": "T-20-2020",
+     "techGdlnOfancYmd": "2020-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL0001588427121254487/7"
+    },
+    {
+     "techGdlnNm": "화학물질의 생식능 및 차세대 영향시험 기술지침",
+     "techGdlnNo": "T-21-2017",
+     "techGdlnOfancYmd": "2017-10-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842722125455730/3"
+    },
+    {
+     "techGdlnNm": "화학물질의 유전독성 평가를 위한 설치류 우성치사시험 지침",
+     "techGdlnNo": "T-22-2021",
+     "techGdlnOfancYmd": "2021-10-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842732125461081/6"
+    },
+    {
+     "techGdlnNm": "화학물질의 유전독성 평가를 위한 포유류 정원세포 염색체이상시험 지침",
+     "techGdlnNo": "T-23-2021",
+     "techGdlnOfancYmd": "2021-10-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842742125473464/6"
+    },
+    {
+     "techGdlnNm": "시험동물 조직 전처리 및 포매 지침",
+     "techGdlnNo": "T-25-2021",
+     "techGdlnOfancYmd": "2021-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000164120973239616670/5"
+    },
+    {
+     "techGdlnNm": "실험동물의 부검절차 및 육안 소견 기술을 위한 지침",
+     "techGdlnNo": "T-26-2023",
+     "techGdlnOfancYmd": "2023-08-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000204551615102306780/2"
+    },
+    {
+     "techGdlnNm": "실험동물 조직의 삭정을 위한 기술지침",
+     "techGdlnNo": "T-27-2022",
+     "techGdlnOfancYmd": "2022-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000201241074221251796/2"
+    },
+    {
+     "techGdlnNm": "화학물질의 급성흡입독성시험(고정농도법) 지침",
+     "techGdlnNo": "T-28-2018",
+     "techGdlnOfancYmd": "2018-10-11",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842792125529834/3"
+    },
+    {
+     "techGdlnNm": "시험동물 조직의 박절 및 염색 지침",
+     "techGdlnNo": "T-31-2021",
+     "techGdlnOfancYmd": "2021-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000164121233239764068/3"
+    },
+    {
+     "techGdlnNm": "시험동물의 기관지·폐포 세척액 검사 지침",
+     "techGdlnNo": "T-32-2021",
+     "techGdlnOfancYmd": "2021-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000164121353239801381/3"
+    },
+    {
+     "techGdlnNm": "화학물질 독성발현경로(AOP)의 개발 및 이해에 관한 지침",
+     "techGdlnNo": "T-33-2023",
+     "techGdlnOfancYmd": "2023-08-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000204551595102282098/2"
+    },
+    {
+     "techGdlnNm": "물질안전보건자료의 신뢰성 평가 지침",
+     "techGdlnNo": "W-2-2021",
+     "techGdlnOfancYmd": "2021-10-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842982125713168/6"
+    },
+    {
+     "techGdlnNm": "생물안전 1,2등급 실험실 안전보건에 관한 기술지침",
+     "techGdlnNo": "W-3-2021",
+     "techGdlnOfancYmd": "2021-10-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843052125785531/6"
+    },
+    {
+     "techGdlnNm": "화학물질의 만성독성시험 기술지침",
+     "techGdlnNo": "W-4-2021",
+     "techGdlnOfancYmd": "2021-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000164121023239654258/3"
+    },
+    {
+     "techGdlnNm": "화학물질의 독성등급법에 의한 급성경구독성시험에 관한 기술지침",
+     "techGdlnNo": "W-5-2021",
+     "techGdlnOfancYmd": "2021-10-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843072125804485/6"
+    },
+    {
+     "techGdlnNm": "화학물질의 유해성ㆍ위험성 평가 지침",
+     "techGdlnNo": "W-6-2021",
+     "techGdlnOfancYmd": "2021-10-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843082125817433/6"
+    },
+    {
+     "techGdlnNm": "화학물질의 급성흡입독성시험 기술지침",
+     "techGdlnNo": "W-8-2021",
+     "techGdlnOfancYmd": "2021-10-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884310212583113/6"
+    },
+    {
+     "techGdlnNm": "화학물질의 피부과민성시험 기술지침",
+     "techGdlnNo": "W-9-2021",
+     "techGdlnOfancYmd": "2021-10-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843112125844453/6"
+    },
+    {
+     "techGdlnNm": "화학물질의 발암성시험 기술지침",
+     "techGdlnNo": "W-10-2023",
+     "techGdlnOfancYmd": "2023-08-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000204551625102317531/2"
+    },
+    {
+     "techGdlnNm": "물질안전보건자료 작성 지침",
+     "techGdlnNo": "W-15-2020",
+     "techGdlnOfancYmd": "2020-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842942125675343/5"
+    },
+    {
+     "techGdlnNm": "화학물질의 유해성 위험성 분류 지침",
+     "techGdlnNo": "W-16-2020",
+     "techGdlnOfancYmd": "2020-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842952125686560/10"
+    },
+    {
+     "techGdlnNm": "한랭작업환경 관리 지침",
+     "techGdlnNo": "W-17-2015",
+     "techGdlnOfancYmd": "2015-09-03",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842962125692405/3"
+    },
+    {
+     "techGdlnNm": "농약방제작업 근로자 안전보건에 관한 기술지침",
+     "techGdlnNo": "W-19-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842972125704114/3"
+    }
+   ]
+  }
+ },
+ "header": {
+  "resultCode": "00",
+  "resultMsg": "NORMAL_CODE"
+ }
+}

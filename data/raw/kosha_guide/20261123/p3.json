@@ -1,0 +1,615 @@
+{
+ "body": {
+  "pageNo": 3,
+  "totalCount": 1039,
+  "numOfRows": 100,
+  "items": {
+   "item": [
+    {
+     "techGdlnNm": "분쇄기의 안전작업에 관한 기술지원규정 ",
+     "techGdlnNo": "B-M-5-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213802777603697636/3"
+    },
+    {
+     "techGdlnNm": "식품가공용기계의 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "B-M-6-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803007603876390/3"
+    },
+    {
+     "techGdlnNm": "양중기 일반 안전에 관한 기술지원규정",
+     "techGdlnNo": "B-M-7-2025",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012910450950727868/2"
+    },
+    {
+     "techGdlnNm": "이동식 크레인  안전보건작업 기술지원규정",
+     "techGdlnNo": "B-M-8-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803297604049989/4"
+    },
+    {
+     "techGdlnNm": "이동식크레인 양중작업의 안전성 검토 기술지원규정",
+     "techGdlnNo": "B-M-9-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803547604224762/3"
+    },
+    {
+     "techGdlnNm": "화학설비 설치 안전에 관한 기술지원규정",
+     "techGdlnNo": "B-M-10-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803497604198309/4"
+    },
+    {
+     "techGdlnNm": "지게차의 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "B-M-11-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803707604297390/4"
+    },
+    {
+     "techGdlnNm": "크레인 달기기구 및 줄걸이 작업용 와이어로프의 사용에 관한 기술지원규정",
+     "techGdlnNo": "B-M-12-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803857604427986/4"
+    },
+    {
+     "techGdlnNm": "기계톱을 이용한 벌목작업에 관한 기술지원규정",
+     "techGdlnNo": "B-M-13-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213804117604634610/3"
+    },
+    {
+     "techGdlnNm": "연삭기 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "B-M-14-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213803917604471381/3"
+    },
+    {
+     "techGdlnNm": "고온 염색기 안전에 관한 기술지원규정",
+     "techGdlnNo": "B-M-15-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012910534697427251/2"
+    },
+    {
+     "techGdlnNm": "기계식 주차장치의 안전에 관한 기술지원규정",
+     "techGdlnNo": "B-M-16-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012910554974432530/2"
+    },
+    {
+     "techGdlnNm": "기계의 위험방지를 위한 시각적·청각적 신호체계에 관한 기술지원규정",
+     "techGdlnNo": "B-M-17-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012910580690444880/3"
+    },
+    {
+     "techGdlnNm": "배관 수명관리 기술지원규정",
+     "techGdlnNo": "B-M-18-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911004826786519/3"
+    },
+    {
+     "techGdlnNm": "배관 주요사고 대비 비상계획에 관한 기술지원규정",
+     "techGdlnNo": "B-M-19-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911040788060670/2"
+    },
+    {
+     "techGdlnNm": "배관지지물 설치 및 유지에 관한 기술지원규정",
+     "techGdlnNo": "B-M-20-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911080719854709/3"
+    },
+    {
+     "techGdlnNm": "분상·입상 저장물의 저장설비에 관한 기술지원규정",
+     "techGdlnNo": "B-M-21-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911114153313239/2"
+    },
+    {
+     "techGdlnNm": "생활폐기물 수거차량의 구조 등에 관한 기술지원규정",
+     "techGdlnNo": "B-M-22-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911130399462219/2"
+    },
+    {
+     "techGdlnNm": "송풍기의 유지보수에 관한 기술지원규정",
+     "techGdlnNo": "B-M-23-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911143487740950/2"
+    },
+    {
+     "techGdlnNm": "안전대의 죔줄에 관한 기술지원규정",
+     "techGdlnNo": "B-M-24-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911173674709524/2"
+    },
+    {
+     "techGdlnNm": "에너지 차단장치의 잠금·표지에 관한 기술지원규정",
+     "techGdlnNo": "B-M-25-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911192551670615/3"
+    },
+    {
+     "techGdlnNm": "예초기 작업에 관한 기술지원규정",
+     "techGdlnNo": "B-M-26-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911202497396748/2"
+    },
+    {
+     "techGdlnNm": "오토클레이브(Autoclave) 안전에 관한 기술지원규정",
+     "techGdlnNo": "B-M-27-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911213768258543/2"
+    },
+    {
+     "techGdlnNm": "유해·위험물 취급용 플렉시블 호스의 사용안전에 관한 기술지원규정",
+     "techGdlnNo": "B-M-28-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911243670902592/2"
+    },
+    {
+     "techGdlnNm": "자동차 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "B-M-29-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911255275291389/2"
+    },
+    {
+     "techGdlnNm": "자분탐상검사와 침투탐상검사에 관한 기술지원규정",
+     "techGdlnNo": "B-M-30-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911274535961847/3"
+    },
+    {
+     "techGdlnNm": "주형 및 코어 제조기의 안전대책에 관한 기술지원규정",
+     "techGdlnNo": "B-M-31-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911292016333914/2"
+    },
+    {
+     "techGdlnNm": "철강제품 적재에 관한 안전 기술지원규정",
+     "techGdlnNo": "B-M-32-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911315968962820/4"
+    },
+    {
+     "techGdlnNm": "컨베이어의 안전에 관한 기술지원규정",
+     "techGdlnNo": "B-M-33-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012911325090174901/3"
+    },
+    {
+     "techGdlnNm": "크레인 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "B-M-34-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012913080347832828/2"
+    },
+    {
+     "techGdlnNm": "파렛트의 안전에 관한 기술지원규정",
+     "techGdlnNo": "B-M-35-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012913094183327865/2"
+    },
+    {
+     "techGdlnNm": "프레스 위험방지에 관한 기술지원규정",
+     "techGdlnNo": "B-M-36-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012913122091663976/3"
+    },
+    {
+     "techGdlnNm": "회전기계 등의 끼임·절단재해 예방을 위한 기술지원규정",
+     "techGdlnNo": "B-M-37-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012913155142440463/2"
+    },
+    {
+     "techGdlnNm": "휴대용 동력드릴의 사용안전에 관한 기술지원규정",
+     "techGdlnNo": "B-M-38-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012913173755748612/2"
+    },
+    {
+     "techGdlnNm": "휴대용 연삭기 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "B-M-39-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012913184262213826/2"
+    },
+    {
+     "techGdlnNm": "수상 바지(Barge)선 이용 건설공사 안전작업 지침",
+     "techGdlnNo": "C-2-2020",
+     "techGdlnOfancYmd": "2020-12-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832602115386808/5"
+    },
+    {
+     "techGdlnNm": "건설공사 돌관작업 안전보건작업 지침",
+     "techGdlnNo": "C-5-2016",
+     "techGdlnOfancYmd": "2016-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832922115709890/3"
+    },
+    {
+     "techGdlnNm": "타일(Tile) 공사 안전보건작업 지침",
+     "techGdlnNo": "C-6-2015",
+     "techGdlnOfancYmd": "2015-12-07",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833032115812840/3"
+    },
+    {
+     "techGdlnNm": "시트(Sheet)방수 안전보건작업 지침",
+     "techGdlnNo": "C-7-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833142115925194/3"
+    },
+    {
+     "techGdlnNm": "가설계단 설치 및 사용 안전보건작업 지침",
+     "techGdlnNo": "C-11-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832482115264978/3"
+    },
+    {
+     "techGdlnNm": "밀폐공간의 방수공사 안전보건작업 지침",
+     "techGdlnNo": "C-14-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832542115325771/3"
+    },
+    {
+     "techGdlnNm": "미장공사 안전보건작업 지침",
+     "techGdlnNo": "C-16-2016",
+     "techGdlnOfancYmd": "2016-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832562115345716/3"
+    },
+    {
+     "techGdlnNm": "경량철골 천장공사 안전보건작업 지침",
+     "techGdlnNo": "C-17-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832572115352296/3"
+    },
+    {
+     "techGdlnNm": "건설공사 안전보건 설계 지침",
+     "techGdlnNo": "C-18-2015",
+     "techGdlnOfancYmd": "2015-12-07",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL0001588325821153660/3"
+    },
+    {
+     "techGdlnNm": "현수교 교량공사 안전보건작업 지침",
+     "techGdlnNo": "C-21-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832622115409110/3"
+    },
+    {
+     "techGdlnNm": "사장교 교량공사 안전보건작업 지침",
+     "techGdlnNo": "C-22-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832632115411591/3"
+    },
+    {
+     "techGdlnNm": "재사용 가설기자재 성능기준에 관한 지침",
+     "techGdlnNo": "C-25-2018",
+     "techGdlnOfancYmd": "2018-10-11",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832652115435754/3"
+    },
+    {
+     "techGdlnNm": "낙하물 방지망 설치 지침",
+     "techGdlnNo": "C-26-2017",
+     "techGdlnOfancYmd": "2017-09-07",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832662115449513/3"
+    },
+    {
+     "techGdlnNm": "낙하물 방호선반 설치 지침",
+     "techGdlnNo": "C-27-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832672115454259/3"
+    },
+    {
+     "techGdlnNm": "수직보호망 설치 지침",
+     "techGdlnNo": "C-29-2017",
+     "techGdlnOfancYmd": "2017-09-07",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832692115478953/3"
+    },
+    {
+     "techGdlnNm": "교량 슬래브거푸집 해체용 작업대차 안전작업 지침",
+     "techGdlnNo": "C-36-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832772115555994/3"
+    },
+    {
+     "techGdlnNm": "프리스트레스트 콘크리트(PSC) 교량공사 안전작업 지침",
+     "techGdlnNo": "C-41-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832832115611746/3"
+    },
+    {
+     "techGdlnNm": "터널공사(NATM공법) 안전보건작업 지침",
+     "techGdlnNo": "C-45-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832872115658212/3"
+    },
+    {
+     "techGdlnNm": "해체공사 안전보건작업 기술지침",
+     "techGdlnNo": "C-47-2023",
+     "techGdlnOfancYmd": "2023-08-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00020455114510201218/2"
+    },
+    {
+     "techGdlnNm": "건설기계 안전보건작업 지침",
+     "techGdlnNo": "C-48-2022",
+     "techGdlnOfancYmd": "2022-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000201238274220477739/2"
+    },
+    {
+     "techGdlnNm": "안전대 사용지침",
+     "techGdlnNo": "C-49-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015883291211569385/3"
+    },
+    {
+     "techGdlnNm": "아스팔트콘크리트 포장공사 안전보건작업 지침",
+     "techGdlnNo": "C-50-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832932115719632/3"
+    },
+    {
+     "techGdlnNm": "야간 건설공사 안전보건작업 지침",
+     "techGdlnNo": "C-52-2016",
+     "techGdlnOfancYmd": "2016-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832952115739797/3"
+    },
+    {
+     "techGdlnNm": "프리캐스트 콘크리트 건축구조물 조립 안전보건작업 지침",
+     "techGdlnNo": "C-53-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832962115744844/3"
+    },
+    {
+     "techGdlnNm": "가공송전선로 철탑 심형기초공사 안전보건작업 지침",
+     "techGdlnNo": "C-54-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832972115757309/3"
+    },
+    {
+     "techGdlnNm": "금속 커튼월(Curtain wall) 안전작업 지침",
+     "techGdlnNo": "C-55-2015",
+     "techGdlnOfancYmd": "2015-12-07",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832982115765518/3"
+    },
+    {
+     "techGdlnNm": "리모델링 안전보건작업 기술지침",
+     "techGdlnNo": "C-56-2017",
+     "techGdlnOfancYmd": "2017-11-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832992115775218/3"
+    },
+    {
+     "techGdlnNm": "건축물의 석공사(내외장) 안전보건작업 기술지침",
+     "techGdlnNo": "C-57-2017",
+     "techGdlnOfancYmd": "2017-11-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833002115786647/3"
+    },
+    {
+     "techGdlnNm": "지붕공사 안전보건작업 기술지침",
+     "techGdlnNo": "C-59-2022",
+     "techGdlnOfancYmd": "2022-03-03",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000196345373354041454/3"
+    },
+    {
+     "techGdlnNm": "탑다운(Top down) 공법 안전작업 지침",
+     "techGdlnNo": "C-60-2015",
+     "techGdlnOfancYmd": "2015-12-07",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833042115829585/3"
+    },
+    {
+     "techGdlnNm": "터널공사(Shield-T.B.M공법) 안전보건작업 지침",
+     "techGdlnNo": "C-61-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833052115834796/3"
+    },
+    {
+     "techGdlnNm": "곤돌라(Gondola) 안전보건작업 지침",
+     "techGdlnNo": "C-62-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833062115844757/3"
+    },
+    {
+     "techGdlnNm": "조적공사 안전보건작업 기술지침",
+     "techGdlnNo": "C-64-2018",
+     "techGdlnOfancYmd": "2018-11-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833082115862695/3"
+    },
+    {
+     "techGdlnNm": "내장공사의 안전보건작업 지침",
+     "techGdlnNo": "C-66-2016",
+     "techGdlnOfancYmd": "2016-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833102115888514/3"
+    },
+    {
+     "techGdlnNm": "블록식 보강토 옹벽 공사 안전보건작업 지침",
+     "techGdlnNo": "C-68-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833122115906730/19"
+    },
+    {
+     "techGdlnNm": "냉동냉장 물류창고 단열공사 화재예방 안전보건작업 지침",
+     "techGdlnNo": "C-70-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833152115934899/38"
+    },
+    {
+     "techGdlnNm": "기성 콘크리트 파일 항타 안전보건작업 지침",
+     "techGdlnNo": "C-71-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833162115945067/25"
+    },
+    {
+     "techGdlnNm": "강박스거더 교량공사 안전보건작업 지침",
+     "techGdlnNo": "C-73-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833182115966751/22"
+    },
+    {
+     "techGdlnNm": "건설공사의 고소작업대 안전보건작업지침",
+     "techGdlnNo": "C-74-2015",
+     "techGdlnOfancYmd": "2015-06-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833192115972467/3"
+    },
+    {
+     "techGdlnNm": "조경공사(수목식재작업) 안전보건작업지침",
+     "techGdlnNo": "C-75-2013",
+     "techGdlnOfancYmd": "2013-08-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833202115984762/16"
+    },
+    {
+     "techGdlnNm": "현수교 주탑시공 안전보건작업지침",
+     "techGdlnNo": "C-77-2013",
+     "techGdlnOfancYmd": "2013-08-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833222116009562/34"
+    },
+    {
+     "techGdlnNm": "옹벽(콘크리트 옹벽)공사의 안전보건작업지침",
+     "techGdlnNo": "C-78-2016",
+     "techGdlnOfancYmd": "2016-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833232116016369/3"
+    },
+    {
+     "techGdlnNm": "초고층 건축물공사(일반사항) 안전보건작업지침",
+     "techGdlnNo": "C-79-2015",
+     "techGdlnOfancYmd": "2015-06-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833242116026809/3"
+    },
+    {
+     "techGdlnNm": "강아치교(벤트공법) 안전보건작업지침",
+     "techGdlnNo": "C-80-2013",
+     "techGdlnOfancYmd": "2013-10-02",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833262116047508/32"
+    },
+    {
+     "techGdlnNm": "터널공사(프론트잭킹) 안전보건작업지침",
+     "techGdlnNo": "C-81-2013",
+     "techGdlnOfancYmd": "2013-10-02",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833272116059178/27"
+    },
+    {
+     "techGdlnNm": "해상 RCD 현장타설 말뚝공사(현수교, 사장교) 안전작업 지침",
+     "techGdlnNo": "C-82-2020",
+     "techGdlnOfancYmd": "2020-12-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833282116064931/33"
+    },
+    {
+     "techGdlnNm": "PCT거더 교량공사 안전보건작업지침",
+     "techGdlnNo": "C-83-2013",
+     "techGdlnOfancYmd": "2013-10-02",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833292116074443/38"
+    },
+    {
+     "techGdlnNm": "트러스거더 교량공사 안전보건작업지침",
+     "techGdlnNo": "C-84-2013",
+     "techGdlnOfancYmd": "2013-10-02",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833302116088701/30"
+    },
+    {
+     "techGdlnNm": "트럭 탑재형 크레인(Cago crane) 안전보건작업지침",
+     "techGdlnNo": "C-85-2013",
+     "techGdlnOfancYmd": "2013-10-02",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833312116094311/21"
+    },
+    {
+     "techGdlnNm": "터널공사(NTR공법) 안전보건작업지침",
+     "techGdlnNo": "C-88-2013",
+     "techGdlnOfancYmd": "2013-11-07",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833342116124005/33"
+    },
+    {
+     "techGdlnNm": "터널공사(침매공법) 안전보건작업지침",
+     "techGdlnNo": "C-89-2013",
+     "techGdlnOfancYmd": "2013-11-06",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833352116136219/30"
+    },
+    {
+     "techGdlnNm": "초고층 건축물공사(화재예방) 안전보건작업지침",
+     "techGdlnNo": "C-91-2015",
+     "techGdlnOfancYmd": "2015-06-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833382116166304/3"
+    },
+    {
+     "techGdlnNm": "우물통기초 안전보건 작업지침",
+     "techGdlnNo": "C-93-2013",
+     "techGdlnOfancYmd": "2013-11-06",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833402116187813/27"
+    },
+    {
+     "techGdlnNm": "교량공사(라멘교) 안전보건작업지침",
+     "techGdlnNo": "C-94-2013",
+     "techGdlnOfancYmd": "2013-11-06",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833412116191952/23"
+    },
+    {
+     "techGdlnNm": "가설구조물의 설계변경 요청 내용, 절차 등에 관한 작성지침",
+     "techGdlnNo": "C-96-2014",
+     "techGdlnOfancYmd": "2014-11-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833432116211599/3"
+    },
+    {
+     "techGdlnNm": "철탑공사 안전보건기술지침",
+     "techGdlnNo": "C-98-2014",
+     "techGdlnOfancYmd": "2014-11-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833452116233008/3"
+    },
+    {
+     "techGdlnNm": "굴착공사 계측관리 기술지침",
+     "techGdlnNo": "C-103-2014",
+     "techGdlnOfancYmd": "2014-12-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832412115196746/3"
+    },
+    {
+     "techGdlnNm": "건설현장 용접용단 안전보건작업 기술지침",
+     "techGdlnNo": "C-108-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158832462115247807/3"
+    },
+    {
+     "techGdlnNm": "취약시기 건설현장 안전작업지침",
+     "techGdlnNo": "C-113-2020",
+     "techGdlnOfancYmd": "2020-12-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000159849402549274133/2"
+    },
+    {
+     "techGdlnNm": "덤프트럭 및 화물자동차 안전작업지침",
+     "techGdlnNo": "C-114-2020",
+     "techGdlnOfancYmd": "2020-12-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000159849432549289505/2"
+    },
+    {
+     "techGdlnNm": "인화성 액체 및 기체 잔류물이 있는 탱크의 청소 및 치환에 관한 기술지원규정",
+     "techGdlnNo": "C-C-1-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213804797605018407/3"
+    },
+    {
+     "techGdlnNm": "화학설비 정비·보수작업계획서 작성 및 정비보수에 관한 기술지원규정",
+     "techGdlnNo": "C-C-2-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213804827605027813/3"
+    },
+    {
+     "techGdlnNm": "물반응성 물질 및 인화성고체의 취급·저장에 관한 기술지원규정",
+     "techGdlnNo": "C-C-3-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213805077605196527/4"
+    },
+    {
+     "techGdlnNm": "산화에틸렌 등의 취급설비의 안전에 관한 기술지원규정",
+     "techGdlnNo": "C-C-4-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213804907605089504/4"
+    },
+    {
+     "techGdlnNm": "안전밸브의 분출압력 및 시트기밀 시험에 관한 기술지원규정",
+     "techGdlnNo": "C-C-5-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00021380516760524718/4"
+    }
+   ]
+  }
+ },
+ "header": {
+  "resultCode": "00",
+  "resultMsg": "NORMAL_CODE"
+ }
+}

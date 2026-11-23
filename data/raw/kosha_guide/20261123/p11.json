@@ -1,0 +1,249 @@
+{
+ "body": {
+  "pageNo": 11,
+  "totalCount": 1039,
+  "numOfRows": 100,
+  "items": {
+   "item": [
+    {
+     "techGdlnNm": "나노물질 제조,취급 근로자 안전보건에 관한 기술지침",
+     "techGdlnNo": "W-20-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158842992125728023/3"
+    },
+    {
+     "techGdlnNm": "생물안전 3등급 실험실의 안전보건에 관한 기술지침",
+     "techGdlnNo": "W-21-2019",
+     "techGdlnOfancYmd": "2019-12-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843002125738188/4"
+    },
+    {
+     "techGdlnNm": "비전리전자기파 측정 및 평가에 관한 지침",
+     "techGdlnNo": "W-22-2016",
+     "techGdlnOfancYmd": "2016-12-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843012125748645/3"
+    },
+    {
+     "techGdlnNm": "작업장에서의 소음측정 및 평가방법",
+     "techGdlnNo": "W-23-2016",
+     "techGdlnOfancYmd": "2016-12-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843022125754182/3"
+    },
+    {
+     "techGdlnNm": "공기 중 제조나노물질의 노출평가에 대한 기술지침",
+     "techGdlnNo": "W-24-2017",
+     "techGdlnOfancYmd": "2017-11-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843032125766952/3"
+    },
+    {
+     "techGdlnNm": "탄소나노튜브 취급 작업환경 노출농도 관리지침",
+     "techGdlnNo": "W-25-2017",
+     "techGdlnOfancYmd": "2017-11-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843042125777665/3"
+    },
+    {
+     "techGdlnNm": "단체급식시설 환기에 관한 기술 지침",
+     "techGdlnNo": "W-26-2023",
+     "techGdlnOfancYmd": "2023-08-24",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000204551575102278140/6"
+    },
+    {
+     "techGdlnNm": "고장형태와 영향분석(FMEA)기법에 관한 지침",
+     "techGdlnNo": "X-6-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843542126271636/3"
+    },
+    {
+     "techGdlnNm": "예비위험분석에 관한 지침",
+     "techGdlnNo": "X-8-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884375212648839/3"
+    },
+    {
+     "techGdlnNm": "온열작업 환경에서의 불편감 예방을 위한 리스크평가 지침",
+     "techGdlnNo": "X-9-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843762126495134/3"
+    },
+    {
+     "techGdlnNm": "저온 접촉면에 대한 인체 반응의 리스크 평가 지침",
+     "techGdlnNo": "X-10-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843132125864296/3"
+    },
+    {
+     "techGdlnNm": "산림작업시 안전보건 리스크 관리 지침",
+     "techGdlnNo": "X-12-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884315212588829/3"
+    },
+    {
+     "techGdlnNm": "저온작업에 대한 리스크 관리지침",
+     "techGdlnNo": "X-15-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843182125914315/3"
+    },
+    {
+     "techGdlnNm": "화학물질 리스크 관리를 위한 작업공정별 관리요령에 관한 지침",
+     "techGdlnNo": "X-27-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843202125931851/3"
+    },
+    {
+     "techGdlnNm": "공정수명 단계별 리스크 평가 기법의 선정에 관한 지침",
+     "techGdlnNo": "X-34-2014",
+     "techGdlnOfancYmd": "2014-11-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843272126002063/3"
+    },
+    {
+     "techGdlnNm": "확률론적 리스크 평가 절차에 관한 지침",
+     "techGdlnNo": "X-35-2014",
+     "techGdlnOfancYmd": "2014-11-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL0001588432821260140/3"
+    },
+    {
+     "techGdlnNm": "이삿짐 운반용 리프트 작업의 리스크 확인 지침",
+     "techGdlnNo": "X-36-2016",
+     "techGdlnOfancYmd": "2016-08-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843292126024013/3"
+    },
+    {
+     "techGdlnNm": "단독작업 리스크의 통제에 관한 일반지침",
+     "techGdlnNo": "X-41-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884334212607357/3"
+    },
+    {
+     "techGdlnNm": "원인결과분석(CCA)기법에 관한 기술지침",
+     "techGdlnNo": "X-43-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843362126097165/3"
+    },
+    {
+     "techGdlnNm": "고소작업대 작업의 리스크 확인지침",
+     "techGdlnNo": "X-44-2016",
+     "techGdlnOfancYmd": "2016-08-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884337212610629/3"
+    },
+    {
+     "techGdlnNm": "도로 및 선로작업에서 리스크 감소를 위한 반사조끼 사용에 관한 지침",
+     "techGdlnNo": "X-45-2014",
+     "techGdlnOfancYmd": "2014-11-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843382126111777/3"
+    },
+    {
+     "techGdlnNm": "사고예상질문/체크리스트분석 결합기법에 관한 기술지침",
+     "techGdlnNo": "X-47-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843402126131815/3"
+    },
+    {
+     "techGdlnNm": "위험물 운송 시 탱크트럭의 정량적 리스크 분석에 관한 기술지침",
+     "techGdlnNo": "X-49-2018",
+     "techGdlnOfancYmd": "2018-11-05",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884342212615848/3"
+    },
+    {
+     "techGdlnNm": "리스크 커뮤니케이션 지침",
+     "techGdlnNo": "X-58-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884352212625129/3"
+    },
+    {
+     "techGdlnNm": "생산 기계·설비 조립 및 설치시의 리스크 평가지침",
+     "techGdlnNo": "X-61-2013",
+     "techGdlnOfancYmd": "2013-11-06",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843562126292215/3"
+    },
+    {
+     "techGdlnNm": "생산설비 화재 대응시의 리스크 평가지침",
+     "techGdlnNo": "X-62-2013",
+     "techGdlnOfancYmd": "2013-11-06",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843572126307556/3"
+    },
+    {
+     "techGdlnNm": "생산설비 폭발 대응시의 리스크 평가지침",
+     "techGdlnNo": "X-63-2013",
+     "techGdlnOfancYmd": "2013-11-06",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843582126314116/3"
+    },
+    {
+     "techGdlnNm": "생산설비 보전작업시의 리스크 평가지침",
+     "techGdlnNo": "X-65-2013",
+     "techGdlnOfancYmd": "2013-11-06",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884360212633633/3"
+    },
+    {
+     "techGdlnNm": "생산관련 물류작업시의 리스크 평가지침",
+     "techGdlnNo": "X-66-2013",
+     "techGdlnOfancYmd": "2013-11-06",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843612126343799/3"
+    },
+    {
+     "techGdlnNm": "밀폐공간 위험관리에 관한 기술지침",
+     "techGdlnNo": "X-68-2015",
+     "techGdlnOfancYmd": "2015-12-07",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843632126369/3"
+    },
+    {
+     "techGdlnNm": "제어실 운전원 휴먼에러확률 예측기법(THERP)에 관한 기술지침",
+     "techGdlnNo": "X-69-2016",
+     "techGdlnOfancYmd": "2016-12-19",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843642126378652/3"
+    },
+    {
+     "techGdlnNm": "운전원 행동분석(OAT)에 관한 기술지침",
+     "techGdlnNo": "X-70-2016",
+     "techGdlnOfancYmd": "2016-12-19",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843662126399784/3"
+    },
+    {
+     "techGdlnNm": "인지신뢰도 및 휴먼에러분석기법(CREAM)에 관한 기술지침",
+     "techGdlnNo": "X-71-2016",
+     "techGdlnOfancYmd": "2016-12-19",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843672126407449/3"
+    },
+    {
+     "techGdlnNm": "휴먼에러의 체계적 예측 및 저감 방법(SHERPA)에 관한 지침",
+     "techGdlnNo": "X-72-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843682126412980/3"
+    },
+    {
+     "techGdlnNm": "휴먼에러에 대한 위험과 운전분석(Human error HAZOP) 기법에 관한 지침",
+     "techGdlnNo": "X-73-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843692126421933/3"
+    },
+    {
+     "techGdlnNm": "휴먼에러의 정량적 평가 및 저감 기법(HEART)에 관한 지침",
+     "techGdlnNo": "X-74-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843702126436416/3"
+    },
+    {
+     "techGdlnNm": "안전관련 시스템의 공통원인고장의 영향 정량화에 관한 기술지침",
+     "techGdlnNo": "X-76-2018",
+     "techGdlnOfancYmd": "2018-11-05",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843722126456390/3"
+    },
+    {
+     "techGdlnNm": "안전관련 시스템의 하드웨어 고장확률 계산에 관한 기술지침",
+     "techGdlnNo": "X-77-2018",
+     "techGdlnOfancYmd": "2018-11-05",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158843732126466502/3"
+    },
+    {
+     "techGdlnNm": "LNG 및 인화성가스 저장탱크의 위험성평가에 관한 기술지침",
+     "techGdlnNo": "X-78-2018",
+     "techGdlnOfancYmd": "2018-11-05",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015884374212647954/3"
+    }
+   ]
+  }
+ },
+ "header": {
+  "resultCode": "00",
+  "resultMsg": "NORMAL_CODE"
+ }
+}

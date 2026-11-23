@@ -1,0 +1,615 @@
+{
+ "body": {
+  "pageNo": 4,
+  "totalCount": 1039,
+  "numOfRows": 100,
+  "items": {
+   "item": [
+    {
+     "techGdlnNm": "상압저장탱크의 검사·변경 및 보수에 관한 기술지원규정",
+     "techGdlnNo": "C-C-6-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213805427605438817/4"
+    },
+    {
+     "techGdlnNm": "정량적 위험성평가에 관한 기술지원규정",
+     "techGdlnNo": "C-C-7-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915211984471764/2"
+    },
+    {
+     "techGdlnNm": "플랜지 및 개스킷 등의 접합부에 관한 기술지원규정",
+     "techGdlnNo": "C-C-8-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915223795969935/2"
+    },
+    {
+     "techGdlnNm": "긴급차단밸브의 설치에 관한 기술지원규정",
+     "techGdlnNo": "C-C-9-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915234894103934/2"
+    },
+    {
+     "techGdlnNm": "통기설비 설치에 관한 기술지원규정",
+     "techGdlnNo": "C-C-10-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915242197686976/2"
+    },
+    {
+     "techGdlnNm": "공정용 안전밸브에 관한 기술지원규정",
+     "techGdlnNo": "C-C-11-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026013015272828650648/2"
+    },
+    {
+     "techGdlnNm": "공정배관계장도(P&ID) 작성에 관한 기술지원규정",
+     "techGdlnNo": "C-C-12-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915481776582257/3"
+    },
+    {
+     "techGdlnNm": "열팽창용 안전밸브에 관한 기술지원규정",
+     "techGdlnNo": "C-C-13-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915501369652856/2"
+    },
+    {
+     "techGdlnNm": "공정흐름도(PFD) 작성에 관한 기술지원규정",
+     "techGdlnNo": "C-C-14-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915510136528719/2"
+    },
+    {
+     "techGdlnNm": "배관재질 선정에 관한 기술지원규정",
+     "techGdlnNo": "C-C-15-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915512834089691/2"
+    },
+    {
+     "techGdlnNm": "세안설비 등의 성능 및 설치에 관한 기술지원규정",
+     "techGdlnNo": "C-C-16-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915515810755562/3"
+    },
+    {
+     "techGdlnNm": "화학설비의 압력시험에 관한 기술지원규정",
+     "techGdlnNo": "C-C-17-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915522392341911/2"
+    },
+    {
+     "techGdlnNm": "플레어시스템의 설계·설치 및 운전에 관한 기술지원규정",
+     "techGdlnNo": "C-C-18-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915525312300670/4"
+    },
+    {
+     "techGdlnNm": "안전밸브와 파열판 직렬설치에 관한 기술지원규정",
+     "techGdlnNo": "C-C-19-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915531677923242/2"
+    },
+    {
+     "techGdlnNm": "화학설비의 재질선정에 관한 기술지원규정",
+     "techGdlnNo": "C-C-20-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915534597747309/2"
+    },
+    {
+     "techGdlnNm": "위험성평가 실시를 위한 우선순위 결정에 관한 기술지원규정",
+     "techGdlnNo": "C-C-21-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915541444451252/2"
+    },
+    {
+     "techGdlnNm": "PVC 제조공정의 화재폭발 위험성평가 및 비상조치에 관한 기술지원규정",
+     "techGdlnNo": "C-C-22-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915544427783640/2"
+    },
+    {
+     "techGdlnNm": "위험기반검사(RBI) 기법에 의한 설비의 신뢰성 향상에 관한 기술지원규정",
+     "techGdlnNo": "C-C-23-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915551097826151/2"
+    },
+    {
+     "techGdlnNm": "공정안전문화 향상에 관한 기술지원규정",
+     "techGdlnNo": "C-C-24-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915554391228153/2"
+    },
+    {
+     "techGdlnNm": "회분식공정의 인적오류 사고 방지에 관한 기술지원규정",
+     "techGdlnNo": "C-C-25-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915561097892727/2"
+    },
+    {
+     "techGdlnNm": "연료가스 배관의 사용전 작업의 위험관리에 관한 기술지원규정",
+     "techGdlnNo": "C-C-26-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915563761261632/2"
+    },
+    {
+     "techGdlnNm": "공정안전 성과지표 작성에 관한 기술지원규정",
+     "techGdlnNo": "C-C-27-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012915570615994488/2"
+    },
+    {
+     "techGdlnNm": "산화성 액체 및 고체의 안전관리에 관한 기술지원규정",
+     "techGdlnNo": "C-C-28-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916000491765976/2"
+    },
+    {
+     "techGdlnNm": "경고표지를 이용한 화학물질 관리에 관한 기술지원규정",
+     "techGdlnNo": "C-C-29-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916005375929501/2"
+    },
+    {
+     "techGdlnNm": "폭주반응 예방을 위한 열적 위험성평가에 관한 기술지원규정",
+     "techGdlnNo": "C-C-30-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916012394629813/2"
+    },
+    {
+     "techGdlnNm": "화학공정 설비의 운전 및 작업에 관한 안전관리 기술지원규정",
+     "techGdlnNo": "C-C-31-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916015324581142/2"
+    },
+    {
+     "techGdlnNm": "화염방지기 설치 등에 관한 기술지원규정",
+     "techGdlnNo": "C-C-32-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916022016404568/2"
+    },
+    {
+     "techGdlnNm": "건조설비 설치에 관한 기술지원규정",
+     "techGdlnNo": "C-C-33-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916030240460943/2"
+    },
+    {
+     "techGdlnNm": "사업장 소방대의 안전활동 기준에 관한 기술지원규정",
+     "techGdlnNo": "C-C-34-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916035918639173/2"
+    },
+    {
+     "techGdlnNm": "정유 및 석유화학 공정의 핵심성과지표 활용에 관한 기술지원규정",
+     "techGdlnNo": "C-C-35-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916042839549395/2"
+    },
+    {
+     "techGdlnNm": "위험성평가에서의 체크리스트(Checklist) 기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-36-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916050020586865/3"
+    },
+    {
+     "techGdlnNm": "연속공정의 위험과 운전분석(HAZOP) 기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-37-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026013015285726898044/2"
+    },
+    {
+     "techGdlnNm": "사고예상 질문분석(WHAT-IF) 기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-38-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026013015301192320093/2"
+    },
+    {
+     "techGdlnNm": "결함수 분석 기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-39-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916053436512776/3"
+    },
+    {
+     "techGdlnNm": "이상위험도 분석기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-40-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916060387180913/2"
+    },
+    {
+     "techGdlnNm": "회분식 공정에 대한 위험과 운전분석(HAZOP) 기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-41-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916063044243064/2"
+    },
+    {
+     "techGdlnNm": "사건수 분석 기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-42-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916065418660138/2"
+    },
+    {
+     "techGdlnNm": "사고피해영향 평가에 관한 기술지원규정",
+     "techGdlnNo": "C-C-43-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916072173399250/2"
+    },
+    {
+     "techGdlnNm": "회분식 공정의 안전운전에 관한 기술지원규정",
+     "techGdlnNo": "C-C-44-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916080916083715/2"
+    },
+    {
+     "techGdlnNm": "작업자 실수분석 기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-45-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916090067937890/4"
+    },
+    {
+     "techGdlnNm": "화학물질폭로영향지수(CEI) 산정에 관한 기술지원규정",
+     "techGdlnNo": "C-C-46-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916092356935683/5"
+    },
+    {
+     "techGdlnNm": "누출원 모델링에 관한 기술지원규정",
+     "techGdlnNo": "C-C-47-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916094841552777/2"
+    },
+    {
+     "techGdlnNm": "유해위험설비의 점검·정비·유지관리에 관한 기술지원규정",
+     "techGdlnNo": "C-C-48-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916101329247136/3"
+    },
+    {
+     "techGdlnNm": "안전작업허가에 관한 기술지원규정",
+     "techGdlnNo": "C-C-49-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916110491082899/3"
+    },
+    {
+     "techGdlnNm": "도급업체의 안전관리계획 작성에 관한 기술지원규정",
+     "techGdlnNo": "C-C-50-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916115984655522/2"
+    },
+    {
+     "techGdlnNm": "공정안전에 관한 근로자 교육훈련 기술지원규정",
+     "techGdlnNo": "C-C-51-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916123250293213/2"
+    },
+    {
+     "techGdlnNm": "가동전 안점점검에 관한 기술지원규정",
+     "techGdlnNo": "C-C-52-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916125852275078/2"
+    },
+    {
+     "techGdlnNm": "변경요소관리에 관한 기술지원규정",
+     "techGdlnNo": "C-C-53-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916132790869610/2"
+    },
+    {
+     "techGdlnNm": "공정사고 조사계획 및 시행에 관한 기술지원규정",
+     "techGdlnNo": "C-C-54-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916135316761054/3"
+    },
+    {
+     "techGdlnNm": "비상조치계획 수립에 관한 기술지원규정",
+     "techGdlnNo": "C-C-55-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916142255516525/2"
+    },
+    {
+     "techGdlnNm": "사고피해예측 기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-56-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916145287927794/2"
+    },
+    {
+     "techGdlnNm": "중대산업사고 조사에 관한 기술지원규정",
+     "techGdlnNo": "C-C-57-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916152046228035/2"
+    },
+    {
+     "techGdlnNm": "최악 및 대안의 사고 시나리오 선정에 관한 기술지원규정",
+     "techGdlnNo": "C-C-58-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916154294835313/2"
+    },
+    {
+     "techGdlnNm": "안전운전절차서 작성에 관한 기술지원규정",
+     "techGdlnNo": "C-C-59-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916160616436589/2"
+    },
+    {
+     "techGdlnNm": "화학공장의 피해최소화대책 수립에 관한 기술지원규정",
+     "techGdlnNo": "C-C-60-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916163136526271/2"
+    },
+    {
+     "techGdlnNm": "공정안전성 분석(K-PSR) 기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-61-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916170832002373/2"
+    },
+    {
+     "techGdlnNm": "방호계층분석(LOPA)기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-62-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916173653615148/2"
+    },
+    {
+     "techGdlnNm": "체크리스트를 활용한 공정안전지침에 관한 기술지원규정",
+     "techGdlnNo": "C-C-63-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916180242205832/3"
+    },
+    {
+     "techGdlnNm": "노후설비의 관리에 관한 기술지원규정",
+     "techGdlnNo": "C-C-64-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916183469177807/2"
+    },
+    {
+     "techGdlnNm": "반도체 제조공정의 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "C-C-65-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916185883611316/2"
+    },
+    {
+     "techGdlnNm": "화학설비 고장율 산출기준에 관한 기술지원규정",
+     "techGdlnNo": "C-C-66-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916192250187270/2"
+    },
+    {
+     "techGdlnNm": "작업위험성평가에 관한 기술지원규정",
+     "techGdlnNo": "C-C-67-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916194591033768/3"
+    },
+    {
+     "techGdlnNm": "화학공장의 도급업체 자율안전관리에 관한 기술지원규정",
+     "techGdlnNo": "C-C-68-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916201649599630/2"
+    },
+    {
+     "techGdlnNm": "소규모 화학공장의 비상조치계획 수립에 관한 기술지원규정",
+     "techGdlnNo": "C-C-69-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916204166277639/2"
+    },
+    {
+     "techGdlnNm": "유해위험공간의 안전에 관한 기술지원규정",
+     "techGdlnNo": "C-C-70-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916211779724116/2"
+    },
+    {
+     "techGdlnNm": "사고의 근본원인 분석(Root Cause Analysis) 기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-71-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916213810510438/2"
+    },
+    {
+     "techGdlnNm": "화학물질 취급 사업장에서의 보안 취약성 평가에 관한 기술지원규정",
+     "techGdlnNo": "C-C-72-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916220322850761/2"
+    },
+    {
+     "techGdlnNm": "정기적인 공정위험성평가에 관한 기술지원규정",
+     "techGdlnNo": "C-C-73-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916231394092046/2"
+    },
+    {
+     "techGdlnNm": "사고시나리오에 따른 비상대응계획 작성에 관한 기술지원규정",
+     "techGdlnNo": "C-C-74-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916234243460165/3"
+    },
+    {
+     "techGdlnNm": "화학설비의 부식 위험성평가에 관한 기술지원규정",
+     "techGdlnNo": "C-C-75-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916244768020466/2"
+    },
+    {
+     "techGdlnNm": "화학설비의 건전성 모니터링에 관한 기술지원규정",
+     "techGdlnNo": "C-C-76-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916252171415626/2"
+    },
+    {
+     "techGdlnNm": "PSM 시스템의 효과적인 운전 규범에 관한 기술지원규정",
+     "techGdlnNo": "C-C-77-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916260647497546/2"
+    },
+    {
+     "techGdlnNm": "정유시설의 안전 운영에 관한 일반적인 위험관리에 대한 기술지원규정",
+     "techGdlnNo": "C-C-78-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916263037958621/2"
+    },
+    {
+     "techGdlnNm": "화학설비의 부식 관리문서 개발에 관한 기술지원규정",
+     "techGdlnNo": "C-C-79-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916271918179676/2"
+    },
+    {
+     "techGdlnNm": "사업장 인수합병을 위한 공정안전평가에 관한 기술지원규정",
+     "techGdlnNo": "C-C-80-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916283717276963/2"
+    },
+    {
+     "techGdlnNm": "상대위험순위결정(Dow and Mond Indices)기법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-81-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916290089061050/2"
+    },
+    {
+     "techGdlnNm": "열매유 보일러에 관한 기술지원규정",
+     "techGdlnNo": "C-C-82-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916293391198229/2"
+    },
+    {
+     "techGdlnNm": "가스폭발 예방을 위한 폭연방출구 설치에 관한 기술지원규정",
+     "techGdlnNo": "C-C-83-2020",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916300985408628/2"
+    },
+    {
+     "techGdlnNm": "연소소각법에 의한 휘발성유기화합물(VOC) 처리설비에 관한 기술지원규정",
+     "techGdlnNo": "C-C-84-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916310061660321/2"
+    },
+    {
+     "techGdlnNm": "불활성가스 치환에 관한 기술지원규정",
+     "techGdlnNo": "C-C-85-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916314260950179/2"
+    },
+    {
+     "techGdlnNm": "공정안전보고서 등의 통합서식 작성방법에 관한 기술지원규정",
+     "techGdlnNo": "C-C-86-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916321355391339/2"
+    },
+    {
+     "techGdlnNm": "가스누출감지경보기 설치 및 유지보수에 관한 기술지원규정",
+     "techGdlnNo": "C-C-87-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916323595581595/2"
+    },
+    {
+     "techGdlnNm": "방유제 설치에 관한 기술지원규정",
+     "techGdlnNo": "C-C-88-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916330088082846/2"
+    },
+    {
+     "techGdlnNm": "내화구조에 관한 기술지원규정",
+     "techGdlnNo": "C-C-89-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916332650741429/2"
+    },
+    {
+     "techGdlnNm": "안전밸브 등의 배출용량 산정 및 설치 등에 관한 기술지원규정",
+     "techGdlnNo": "C-C-90-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916341450552946/4"
+    },
+    {
+     "techGdlnNm": "화학설비 배관 등의 비파괴검사 및 열처리에 관한 기술지원규정",
+     "techGdlnNo": "C-C-91-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916343757708027/3"
+    },
+    {
+     "techGdlnNm": "자체감사에 관한 기술지원규정",
+     "techGdlnNo": "C-C-92-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916353391822070/2"
+    },
+    {
+     "techGdlnNm": "상압저장탱크의 형식선정 및 설계에 관한 기술지원규정",
+     "techGdlnNo": "C-C-93-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916364196458135/2"
+    },
+    {
+     "techGdlnNm": "파열판의 설치 및 교환 등에 관한 기술지원규정",
+     "techGdlnNo": "C-C-94-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012916382373320058/3"
+    },
+    {
+     "techGdlnNm": "미압 배관에서의 폭연 방산구 설치에 관한 기술지침",
+     "techGdlnNo": "D-1-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000200013994045598919/3"
+    },
+    {
+     "techGdlnNm": "활성탄 흡착설비의 안전설치에 관한 기술지침",
+     "techGdlnNo": "D-2-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833562116348764/3"
+    },
+    {
+     "techGdlnNm": "유지공장의 용제추출공정 안전설계 및 운전에 관한 기술지침",
+     "techGdlnNo": "D-3-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833672116452418/3"
+    },
+    {
+     "techGdlnNm": "배관이나 덕트로 연결된 설비사이의 폭발격리시스템 설치에 관한 기술지침",
+     "techGdlnNo": "D-4-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833772116556532/3"
+    },
+    {
+     "techGdlnNm": "화학공정의 시스템 디자인 크라이테리어에 관한 기술지침",
+     "techGdlnNo": "D-5-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833882116664783/3"
+    },
+    {
+     "techGdlnNm": "냉동 시스템의 설치 및 취급에 관한 안전기술지침",
+     "techGdlnNo": "D-6-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833992116772552/3"
+    },
+    {
+     "techGdlnNm": "연료전지의 설계 및 취급 안전 기술지침",
+     "techGdlnNo": "D-7-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834062116841100/3"
+    },
+    {
+     "techGdlnNm": "분진폭발방지에 관한 기술지침",
+     "techGdlnNo": "D-12-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833502116287211/3"
+    },
+    {
+     "techGdlnNm": "염소저장설비에 관한 기술지침",
+     "techGdlnNo": "D-13-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833512116291698/3"
+    },
+    {
+     "techGdlnNm": "폭발억제장치의 설치에 관한 기술지침",
+     "techGdlnNo": "D-16-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833542116329243/3"
+    },
+    {
+     "techGdlnNm": "위험물질 저장 취급 화학설비의 고무라이닝에 관한 기술지침",
+     "techGdlnNo": "D-20-2017",
+     "techGdlnOfancYmd": "2017-10-11",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833572116358971/3"
+    }
+   ]
+  }
+ },
+ "header": {
+  "resultCode": "00",
+  "resultMsg": "NORMAL_CODE"
+ }
+}

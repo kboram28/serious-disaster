@@ -1,0 +1,615 @@
+{
+ "body": {
+  "pageNo": 5,
+  "totalCount": 1039,
+  "numOfRows": 100,
+  "items": {
+   "item": [
+    {
+     "techGdlnNm": "옥외 저장탱크의 포 소화설비 설계지침",
+     "techGdlnNo": "D-21-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833582116368768/3"
+    },
+    {
+     "techGdlnNm": "가연성가스 및 증기혼합물의 폭발한계 산정에 관한 기술지침",
+     "techGdlnNo": "D-22-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833592116373612/3"
+    },
+    {
+     "techGdlnNm": "화학설비의 안전설계 일반기준에 관한 기술지침",
+     "techGdlnNo": "D-24-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833612116396437/3"
+    },
+    {
+     "techGdlnNm": "수소 저장설비의 안전에 관한 기술지침",
+     "techGdlnNo": "D-27-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833642116425031/9"
+    },
+    {
+     "techGdlnNm": "소규모사업장에서의 화재폭발사고 방지를 위한 기술지침",
+     "techGdlnNo": "D-28-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833652116439995/3"
+    },
+    {
+     "techGdlnNm": "고열로부터 용기 보호에 관한 기술지침",
+     "techGdlnNo": "D-30-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833682116467212/3"
+    },
+    {
+     "techGdlnNm": "제어실의 위치선정 및 설계에 관한 기술지침",
+     "techGdlnNo": "D-32-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833702116489060/3"
+    },
+    {
+     "techGdlnNm": "가스 및 증기상의 화재폭발 위험성이 있는 설비의 설계에 관한 기술지침",
+     "techGdlnNo": "D-33-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833712116491755/3"
+    },
+    {
+     "techGdlnNm": "무수암모니아 저장에 관한 기술지침",
+     "techGdlnNo": "D-34-2013",
+     "techGdlnOfancYmd": "2013-11-25",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833722116502255/3"
+    },
+    {
+     "techGdlnNm": "화학설비 등의 공정설계에 관한 기술지침",
+     "techGdlnNo": "D-37-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833742116524260/3"
+    },
+    {
+     "techGdlnNm": "진한황산 및 발연황산 저장탱크의 공정설계에 관한 기술지침",
+     "techGdlnNo": "D-38-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015883375211653989/3"
+    },
+    {
+     "techGdlnNm": "수소 벤트스택 및 벤트배관의 공정설계에 관한 기술지침",
+     "techGdlnNo": "D-42-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833802116587332/6"
+    },
+    {
+     "techGdlnNm": "집진설비 분진폭발 방지기술 지침",
+     "techGdlnNo": "D-43-2012",
+     "techGdlnOfancYmd": "2012-07-18",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833812116594083/3"
+    },
+    {
+     "techGdlnNm": "화학공장의 화재예방에 관한 기술지침",
+     "techGdlnNo": "D-46-2013",
+     "techGdlnOfancYmd": "2013-10-02",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833842116626128/3"
+    },
+    {
+     "techGdlnNm": "지하-지상 배관 연결부의 플랜지 절연장치 설치에 관한 기술지침",
+     "techGdlnNo": "D-51-2020",
+     "techGdlnOfancYmd": "2020-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833902116681467/5"
+    },
+    {
+     "techGdlnNm": "배관계통의 공정설계에 관한 기술지침",
+     "techGdlnNo": "D-52-2013",
+     "techGdlnOfancYmd": "2013-07-19",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833912116696397/3"
+    },
+    {
+     "techGdlnNm": "과산화수소 저장설비의 안전에 관한 기술지침",
+     "techGdlnNo": "D-53-2013",
+     "techGdlnOfancYmd": "2013-11-25",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015883392211670840/3"
+    },
+    {
+     "techGdlnNm": "액상 화학물질의 하역 및 출하장의 누출방지설비 설치에 관한 기술지침",
+     "techGdlnNo": "D-55-2016",
+     "techGdlnOfancYmd": "2016-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833942116723850/3"
+    },
+    {
+     "techGdlnNm": "맹판 설치 및 제거에 관한 기술지침",
+     "techGdlnNo": "D-56-2016",
+     "techGdlnOfancYmd": "2016-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833952116737112/3"
+    },
+    {
+     "techGdlnNm": "가스상 급성 독성물질의 하역 및 출하시 안전기준에 관한 기술지침",
+     "techGdlnNo": "D-57-2016",
+     "techGdlnOfancYmd": "2016-12-19",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015883396211674339/3"
+    },
+    {
+     "techGdlnNm": "용융탄산염형 연료전지 설계 및 설치에 관한 기술지침",
+     "techGdlnNo": "D-58-2016",
+     "techGdlnOfancYmd": "2016-12-19",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158833972116754342/3"
+    },
+    {
+     "techGdlnNm": "플레어시스템의 녹아웃드럼 설계 및 설치에 관한 기술지침",
+     "techGdlnNo": "D-60-2017",
+     "techGdlnOfancYmd": "2017-11-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834002116788603/3"
+    },
+    {
+     "techGdlnNm": "플레어시스템의 역화방지설비 설계 및 설치에 관한 기술지침",
+     "techGdlnNo": "D-61-2018",
+     "techGdlnOfancYmd": "2017-11-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834012116794906/3"
+    },
+    {
+     "techGdlnNm": "체크밸브 설치에 관한 기술지침",
+     "techGdlnNo": "D-62-2018",
+     "techGdlnOfancYmd": "2018-11-05",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834022116806725/3"
+    },
+    {
+     "techGdlnNm": "안전밸브 배출배관의 설계에 관한 기술지침",
+     "techGdlnNo": "D-63-2018",
+     "techGdlnOfancYmd": "2018-11-05",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834032116814537/3"
+    },
+    {
+     "techGdlnNm": "원심펌프의 최소유량 선정 및 펌프 설치 등에 관한 기술지침",
+     "techGdlnNo": "D-64-2018",
+     "techGdlnOfancYmd": "2018-11-05",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834042116826487/7"
+    },
+    {
+     "techGdlnNm": "방호구조의 설계 및 설치에 관한 기술지침",
+     "techGdlnNo": "D-65-2018",
+     "techGdlnOfancYmd": "2018-11-05",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834052116839501/3"
+    },
+    {
+     "techGdlnNm": "파괴핀장치 설치에 관한 기술지침",
+     "techGdlnNo": "D-68-2020",
+     "techGdlnOfancYmd": "2020-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000159881832555186137/2"
+    },
+    {
+     "techGdlnNm": "안전계장시스템(SIS)을 이용한 화학설비 안전성 향상에 관한 기술지침",
+     "techGdlnNo": "D-69-2020",
+     "techGdlnOfancYmd": "2020-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000159881922555219561/2"
+    },
+    {
+     "techGdlnNm": "흙막이공사에 대한 기술지원규정",
+     "techGdlnNo": "D-C-1-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213805457605453059/3"
+    },
+    {
+     "techGdlnNm": "교량 상부공 가설공법의 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "D-C-2-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213805837605717063/3"
+    },
+    {
+     "techGdlnNm": "철골공사(데크플레이트 포함)의 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "D-C-3-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213806117605923679/4"
+    },
+    {
+     "techGdlnNm": "굴착기 안전보건작업 기술지원규정",
+     "techGdlnNo": "D-C-4-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213806747606356792/3"
+    },
+    {
+     "techGdlnNm": "굴착면 안전기울기 기준에 관한  기술지원규정",
+     "techGdlnNo": "D-C-5-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213806647606273230/3"
+    },
+    {
+     "techGdlnNm": "발파공사 기술지원규정",
+     "techGdlnNo": "D-C-6-2025",
+     "techGdlnOfancYmd": "2025-03-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000213806787606381513/3"
+    },
+    {
+     "techGdlnNm": "비계 구조 및 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "D-C-7-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914243912403149/3"
+    },
+    {
+     "techGdlnNm": "작업발판 일체형 거푸집(갱폼, 시스템폼, 슬립폼) 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "D-C-8-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914280771520107/2"
+    },
+    {
+     "techGdlnNm": "거푸집 및 동바리 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "D-C-9-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914300744191890/2"
+    },
+    {
+     "techGdlnNm": "건설장비(이동식크레인, 항타기 및 항발기, 타워크레인) 작업계획서 작성에 관한 기술지원규정",
+     "techGdlnNo": "D-C-10-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914313984348485/3"
+    },
+    {
+     "techGdlnNm": "굴착 및 토공 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "D-C-11-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914341697414755/3"
+    },
+    {
+     "techGdlnNm": "조립 강주 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "D-C-12-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914355740302531/3"
+    },
+    {
+     "techGdlnNm": "외벽도장보수공사 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "D-C-13-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914371557826167/2"
+    },
+    {
+     "techGdlnNm": "엘리베이터 승강로용 고소 가설작업대 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "D-C-14-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914380154825946/2"
+    },
+    {
+     "techGdlnNm": "콘크리트공사(단순 슬래브 포함) 안전작업에 관한 기술지원규정",
+     "techGdlnNo": "D-C-15-2026",
+     "techGdlnOfancYmd": "2026-01-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/CTC2026012914392397572332/3"
+    },
+    {
+     "techGdlnNm": "가공전선로에서의 위험방지에 관한 기술지침",
+     "techGdlnNo": "E-1-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834092116879383/3"
+    },
+    {
+     "techGdlnNm": "고압 스팀 청소기의 전기위험에 관한 기술지침",
+     "techGdlnNo": "E-2-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834952117733736/3"
+    },
+    {
+     "techGdlnNm": "공연장의 전기안전에 관한 기술지침",
+     "techGdlnNo": "E-3-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835062117843066/3"
+    },
+    {
+     "techGdlnNm": "아크용접장치의 선정 및 사용에 관한 기술지침",
+     "techGdlnNo": "E-4-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835162117948064/3"
+    },
+    {
+     "techGdlnNm": "전기개폐장치의 관리에 관한 기술지침",
+     "techGdlnNo": "E-6-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835382118166753/3"
+    },
+    {
+     "techGdlnNm": "축전지 취급에 관한 기술지침",
+     "techGdlnNo": "E-10-2013",
+     "techGdlnOfancYmd": "2013-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834102116887109/3"
+    },
+    {
+     "techGdlnNm": "가스충전소 및 주유소에서의 재해방지에 관한 기술지침",
+     "techGdlnNo": "E-13-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834402117189910/3"
+    },
+    {
+     "techGdlnNm": "개폐장치의 사용에 관한 기술지침",
+     "techGdlnNo": "E-15-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834622117403897/3"
+    },
+    {
+     "techGdlnNm": "빌딩 건설현장에서의 배전설비에 관한 기술지침",
+     "techGdlnNo": "E-16-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834732117518495/3"
+    },
+    {
+     "techGdlnNm": "고전압 개폐장치의 정비에 관한 기술지침",
+     "techGdlnNo": "E-17-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834842117621975/3"
+    },
+    {
+     "techGdlnNm": "저압 개폐장치의 정비에 관한 기술지침",
+     "techGdlnNo": "E-18-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834932117719783/3"
+    },
+    {
+     "techGdlnNm": "전기 시험장비에 관한 기술지침",
+     "techGdlnNo": "E-19-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015883494211772776/3"
+    },
+    {
+     "techGdlnNm": "제조과정중인 제품의 전기시험에 관한 기술지침",
+     "techGdlnNo": "E-20-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834962117745755/3"
+    },
+    {
+     "techGdlnNm": "폭발위험장소에서의 보호시스템 안전성 평가방법에 관한 기술지침",
+     "techGdlnNo": "E-22-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834982117765554/3"
+    },
+    {
+     "techGdlnNm": "휴대 전동분무기의 사용에 관한 기술지침",
+     "techGdlnNo": "E-25-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835012117795443/3"
+    },
+    {
+     "techGdlnNm": "배선기구의 정비에 관한 기술지침",
+     "techGdlnNo": "E-31-2014",
+     "techGdlnOfancYmd": "2014-09-16",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835072117852312/3"
+    },
+    {
+     "techGdlnNm": "임업에서의 전기안전에 관한 기술지침",
+     "techGdlnNo": "E-36-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835122117908325/3"
+    },
+    {
+     "techGdlnNm": "차단기 시험에 관한 기술지침",
+     "techGdlnNo": "E-40-2013",
+     "techGdlnOfancYmd": "2013-09-03",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835172117952835/3"
+    },
+    {
+     "techGdlnNm": "이동형 저압 발전기의 안전점검에 관한 기술지침",
+     "techGdlnNo": "E-41-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835182117968443/3"
+    },
+    {
+     "techGdlnNm": "전기가마의 안전한 사용에 관한 기술지침",
+     "techGdlnNo": "E-44-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835212117998693/3"
+    },
+    {
+     "techGdlnNm": "전기단선도 작성에 관한 기술지침",
+     "techGdlnNo": "E-46-2013",
+     "techGdlnOfancYmd": "2013-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835232118015922/3"
+    },
+    {
+     "techGdlnNm": "절연용 방호구의 선정 및 관리 등에 관한 기술지침 ",
+     "techGdlnNo": "E-55-2022",
+     "techGdlnOfancYmd": "2022-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000201238804220637346/2"
+    },
+    {
+     "techGdlnNm": "배선용차단기 일반관리에 관한 기술지침",
+     "techGdlnNo": "E-57-2020",
+     "techGdlnOfancYmd": "2020-12-15",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015883535211813161/3"
+    },
+    {
+     "techGdlnNm": "전기작업용 보호 장구에 관한 기술지침",
+     "techGdlnNo": "E-58-2013",
+     "techGdlnOfancYmd": "2013-09-03",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835362118148654/3"
+    },
+    {
+     "techGdlnNm": "가공전선 주변에서의 안전한 농사활동을 위한 기술지침 ",
+     "techGdlnNo": "E-65-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835442118226589/3"
+    },
+    {
+     "techGdlnNm": "채석장에서의 전기안전에 관한 기술지침",
+     "techGdlnNo": "E-66-2012",
+     "techGdlnOfancYmd": "2012-06-20",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835452118232150/3"
+    },
+    {
+     "techGdlnNm": "가연성 물질을 사용하는 분무장비에 관한 기술지침",
+     "techGdlnNo": "E-74-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835532118313567/3"
+    },
+    {
+     "techGdlnNm": "아크용접장치의 설치 및 사용에 관한 기술지침",
+     "techGdlnNo": "E-76-2013",
+     "techGdlnOfancYmd": "2013-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835552118334207/3"
+    },
+    {
+     "techGdlnNm": "휴대 전기기기 정비에 관한 기술지침",
+     "techGdlnNo": "E-77-2015",
+     "techGdlnOfancYmd": "2015-06-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835562118343989/3"
+    },
+    {
+     "techGdlnNm": "전선로 및 통신선로의 안전작업에 관한 기술지침",
+     "techGdlnNo": "E-79-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835582118368499/3"
+    },
+    {
+     "techGdlnNm": "조선 및 선박수리산업에서의 임시전기설비에 관한 기술지침",
+     "techGdlnNo": "E-80-2011",
+     "techGdlnOfancYmd": "2011-12-26",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835602118383779/3"
+    },
+    {
+     "techGdlnNm": "전기설비 설치상의 안전에 관한 기술지침",
+     "techGdlnNo": "E-85-2017",
+     "techGdlnOfancYmd": "2017-10-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835652118439343/3"
+    },
+    {
+     "techGdlnNm": "산업용 기계설비의 전기장치 설치에 관한 기술 기준",
+     "techGdlnNo": "E-94-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835752118538836/3"
+    },
+    {
+     "techGdlnNm": "산업용 기계설비의 비상정지장치 설계에 관한 기술지침",
+     "techGdlnNo": "E-96-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158835772118559780/3"
+    },
+    {
+     "techGdlnNm": "석유화학공장의 전기설비 설치에 관한 기술지침",
+     "techGdlnNo": "E-97-2022",
+     "techGdlnOfancYmd": "2022-12-31",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000201239114220776402/2"
+    },
+    {
+     "techGdlnNm": "저압전기설비에서의 감전예방을 위한 기술지침",
+     "techGdlnNo": "E-100-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834112116897371/6"
+    },
+    {
+     "techGdlnNm": "저압감전방지장치 등의 선정 및 설치에 관한 기술지침",
+     "techGdlnNo": "E-103-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834142116925278/3"
+    },
+    {
+     "techGdlnNm": "전기설비 설치시 환경·사용조건평가 등에 관한 기술지침",
+     "techGdlnNo": "E-104-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834152116938856/3"
+    },
+    {
+     "techGdlnNm": "비상설비 등에 대한 전원공급설비의 설치에 관한 기술지침",
+     "techGdlnNo": "E-108-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834192116974854/3"
+    },
+    {
+     "techGdlnNm": "난연성 전기작업복 선정에 관한 기술지침",
+     "techGdlnNo": "E-111-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834232117017121/3"
+    },
+    {
+     "techGdlnNm": "서지보호장치 선정 및 설치지침에 관한 기술지침",
+     "techGdlnNo": "E-112-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834242117023558/26"
+    },
+    {
+     "techGdlnNm": "절연 보호구의 선정 및 사용에 관한 기술지침",
+     "techGdlnNo": "E-115-2011",
+     "techGdlnOfancYmd": "2011-12-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834262117043508/3"
+    },
+    {
+     "techGdlnNm": "과전류 보호장치 선정 및 설치에 관한 기술지침",
+     "techGdlnNo": "E-116-2021",
+     "techGdlnOfancYmd": "2021-12-01",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834272117058538/6"
+    },
+    {
+     "techGdlnNm": "정전기 방전 차폐체의 표준시험방법에 관한 기술지침",
+     "techGdlnNo": "E-121-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL00015883431211709994/3"
+    },
+    {
+     "techGdlnNm": "전기장치에서의 SF6 가스 분석과 처리에 관한 기술지침",
+     "techGdlnNo": "E-123-2012",
+     "techGdlnOfancYmd": "2012-08-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834332117112020/3"
+    },
+    {
+     "techGdlnNm": "저압 개폐장치 및 제어장치의 유지관리 등에 관한 기술지침",
+     "techGdlnNo": "E-129-2012",
+     "techGdlnOfancYmd": "2012-11-29",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834392117173380/3"
+    },
+    {
+     "techGdlnNm": "전압인가식 제전장치의 성능평가 및 사용안전에 관한 기술지침",
+     "techGdlnNo": "E-130-2012",
+     "techGdlnOfancYmd": "2012-12-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834412117191340/3"
+    },
+    {
+     "techGdlnNm": "저압 개폐장치 및 제어장치의 오작동 방지 시험에 관한 기술지침",
+     "techGdlnNo": "E-131-2012",
+     "techGdlnOfancYmd": "2012-12-27",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834422117207834/3"
+    },
+    {
+     "techGdlnNm": "38 kV 이상 개폐장치의 유지보수에 관한 기술지침",
+     "techGdlnNo": "E-132-2013",
+     "techGdlnOfancYmd": "2013-09-03",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834432117215165/3"
+    },
+    {
+     "techGdlnNm": "의료용 전기 시스템의 안전한 사용에 관한 기술지침",
+     "techGdlnNo": "E-134-2013",
+     "techGdlnOfancYmd": "2013-09-03",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834452117235794/3"
+    },
+    {
+     "techGdlnNm": "저압 개폐장치 및 제어장치의 시험·점검에 관한 기술지침",
+     "techGdlnNo": "E-135-2013",
+     "techGdlnOfancYmd": "2013-09-03",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834462117247102/3"
+    },
+    {
+     "techGdlnNm": "비상 등기구의 기능안전에 관한 기술지침",
+     "techGdlnNo": "E-139-2013",
+     "techGdlnOfancYmd": "2013-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834502117289839/3"
+    },
+    {
+     "techGdlnNm": "비상 등기구 배터리의 관리에 관한 기술지침",
+     "techGdlnNo": "E-140-2013",
+     "techGdlnOfancYmd": "2013-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834522117306909/3"
+    },
+    {
+     "techGdlnNm": "가연성 분진발생 사업장의 케이블에 의한   화재 위험 관리에 관한 기술지침",
+     "techGdlnNo": "E-141-2013",
+     "techGdlnOfancYmd": "2013-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834532117318375/3"
+    },
+    {
+     "techGdlnNm": "압축공기 구동식 연마기의 정전기 대책에 관한 기술지침",
+     "techGdlnNo": "E-142-2013",
+     "techGdlnOfancYmd": "2013-11-30",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834542117324771/3"
+    },
+    {
+     "techGdlnNm": "통신케이블 설치 근로자의 안전작업에 관한 기술지침",
+     "techGdlnNo": "E-147-2015",
+     "techGdlnOfancYmd": "2015-12-07",
+     "fileDownloadUrl": "https://portal.kosha.or.kr/openapi/v1/file/down/FL000158834592117376445/3"
+    }
+   ]
+  }
+ },
+ "header": {
+  "resultCode": "00",
+  "resultMsg": "NORMAL_CODE"
+ }
+}
