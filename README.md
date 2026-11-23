@@ -4,6 +4,7 @@
 순천대학교 인공지능공학부 졸업작품(V1)을 다시 구축하며 데이터 수집·구조를 개선한 버전(V2.2).
 
 - 개선 내용과 V1·V2 비교: [docs/final_report.md](docs/final_report.md)
+  (V1은 원본 코드로 평가한 **실제 V1**과, 원본을 찾기 전 추측해 재현한 **추측한 V1** 두 가지로 비교)
 - 무엇을 왜 바꿨는지: [docs/decisions.md](docs/decisions.md)
 
 ## 데이터
@@ -22,7 +23,8 @@ data/raw/          원본 (엑셀, SIF API 응답) — 수정하지 않음
 data/processed/    정제·라벨·통합 결과
 collectors/        API 수집 (sif_api.py)
 pipeline/          정제, 라벨 재검증, SIF 분류, 정보 추출, 통합
-v1_baseline/       V1 재현 (사례 전체를 프롬프트에 입력)
+v1_original/       실제 V1 원본 코드 (졸업작품 챗봇, 보관용)
+v1_baseline/       V1 평가용: v1_original.py = 실제 V1 이식, v1.py = 추측한 V1 (사례 전체를 프롬프트에 입력)
 v2/                V2 검색 인덱스와 RAG (rag_v22.py = 최종)
 eval/              테스트셋, 질문 세트, 평가·채점 스크립트, 결과
 app/               웹 화면 (Streamlit)
@@ -74,7 +76,8 @@ GPT 판정 결과는 캐시 파일(`*.jsonl`)에 저장되어 있어 다시 실�
 
 ### 평가
 ```powershell
-python eval/run_eval.py v1                 # V1: 분류 100건 + 질문 43개
+python eval/run_eval.py v1_original        # 실제 V1: 질문 43개 (분류 기능 없음)
+python eval/run_eval.py v1                 # 추측한 V1: 분류 100건 + 질문 43개
 python eval/run_eval.py v2
 python eval/score_answers.py auto          # 자동 검사
 python eval/score_answers.py judge         # GPT 블라인드 채점
@@ -87,8 +90,8 @@ python eval/score_answers.py report        # 종합 리포트
 | 구분 | V1 (졸업작품) | V2.2 (재구축) |
 |---|---|---|
 | 웹 | Django | Streamlit 1.66, 그래프 Altair 6.3 |
-| LLM | OpenAI GPT-4 | OpenAI `gpt-5.4-mini` (답변·분류·추출·사진 설명), 평가 채점 `gpt-5.5` |
-| 검색 | 사례 전체를 프롬프트에 입력 (재현 기준) | 임베딩 의미 검색: `text-embedding-3-small` + numpy 코사인 유사도 (별도 벡터 DB 없음), 조건 필터는 pandas |
+| LLM | OpenAI `gpt-4-turbo` (서비스 종료, 평가는 `gpt-5.4-mini`로 통일) | OpenAI `gpt-5.4-mini` (답변·분류·추출·사진 설명), 평가 채점 `gpt-5.5` |
+| 검색 | 동의어 사전 키워드 → 업종 AND 유형 필터 → 앞 5건 (원본 코드 기준) | 임베딩 의미 검색: `text-embedding-3-small` + numpy 코사인 유사도 (별도 벡터 DB 없음), 조건 필터는 pandas |
 | 데이터 처리 | 엑셀 수작업 정리 | pandas 3.0, openpyxl 3.1, olefile (hwp 가이드 추출) |
 | 데이터 수집 | 공단 재해사례 수작업 수집 | 공공데이터포털 오픈 API (requests), python-dotenv |
 | 언어·도구 | Python | Python 3.13, git, AI 코딩 도구 Claude Code (Anthropic) |

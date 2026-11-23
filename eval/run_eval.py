@@ -12,6 +12,7 @@ ask(질문, history) -> {"answer", "usage"} 를 제공해야 한다.
 
 사용법
   python eval/run_eval.py v1
+  python eval/run_eval.py v1_original     # 실제 V1: 분류 기능이 없어 질문 세트만
   python eval/run_eval.py v2.1 holdout    # 새 질문 세트로 답변만 생성
   python eval/run_eval.py v2.2 holdout2   # V3 평가용 30문항 (V2.2 기준선)
 """
@@ -30,7 +31,8 @@ GOLD = ROOT / "eval/test_gold.csv"
 QUESTIONS = ROOT / "eval/questions.csv"
 RESULTS = ROOT / "eval/results"
 SYSTEMS = {"v1": ROOT / "v1_baseline/v1.py", "v2": ROOT / "v2/rag.py", "v2.1": ROOT / "v2/rag_v21.py",
-           "v2.2": ROOT / "v2/rag_v22.py"}
+           "v2.2": ROOT / "v2/rag_v22.py",
+           "v1_original": ROOT / "v1_baseline/v1_original.py"}  # 실제 V1 (decisions [24]), 분류 기능 없음
 QUESTION_SETS = {"main": ROOT / "eval/questions.csv", "holdout": ROOT / "eval/questions_holdout.csv",
                  "holdout2": ROOT / "eval/questions_holdout2.csv"}  # V3 평가용, 수정 금지 (태그 v3-eval-frozen)
 TYPES = ["떨어짐", "끼임", "깔림", "맞음", "부딪힘", "기타"]
@@ -216,6 +218,9 @@ def main():
     mod = load_system(name)
     if qset != "main":  # 새 질문 세트: 답변만 생성 (분류 테스트는 V2와 동일 로직이라 생략)
         run_questions(mod, name, qset)
+        return
+    if not hasattr(mod, "classify"):  # 분류 기능이 없는 시스템(실제 V1): 질문 세트만 실행
+        run_questions(mod, name)
         return
     cls = run_classify(mod, name)
     ans = run_questions(mod, name)
