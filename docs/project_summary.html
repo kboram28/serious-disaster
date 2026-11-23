@@ -70,22 +70,24 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
   <header>
     <div class="eyebrow">졸업작품 재구축 · 2026.10</div>
     <h1>GPT 기반 중대재해 유형 분류 시스템</h1>
-    <p class="lede">산업현장 중대재해 사례를 근거로 재해유형 분류, 유사 사례 검색, 예방대책, 사고 발생 시 대응을 안내하는 챗봇. 유실된 졸업작품(V1)을 다시 만들면서 데이터와 구조를 개선하고(V2.2), 두 버전을 같은 조건에서 비교했다.</p>
-    <div class="meta"><span>순천대학교 인공지능공학부</span><span><b>권보람</b>, 김세진</span><span>모델 <b>gpt-5.4-mini</b> (V1·V2 동일)</span></div>
+    <p class="lede">산업현장 중대재해 사례를 근거로 재해유형 분류, 유사 사례 검색, 예방대책, 사고 발생 시 대응을 안내하는 챗봇. 졸업작품(V1)을 다시 만들면서 데이터와 구조를 개선하고(V2.2), 같은 조건에서 비교했다. 처음에는 코드가 유실된 줄 알고 V1을 추측해 재현했고(추측한 V1), 이후 원본 코드를 찾아 실제 방식도 평가했다(실제 V1).</p>
+    <div class="meta"><span>순천대학교 인공지능공학부</span><span><b>권보람</b>, 김세진</span><span>모델 <b>gpt-5.4-mini</b> (모든 버전 동일)</span></div>
   </header>
 
   <section>
     <h2><span class="n">01</span>한눈에 보기</h2>
     <div class="tablewrap"><table>
-      <thead><tr><th>항목</th><th class="num">V1 (기존)</th><th class="num">V2.2 (개선)</th></tr></thead>
+      <thead><tr><th>항목</th><th class="num">실제 V1 (원본 코드)</th><th class="num">추측한 V1 (통째로 넣기)</th><th class="num">V2.2 (개선)</th></tr></thead>
       <tbody>
-        <tr><td>검색 대상 사례</td><td class="num">409건</td><td class="num up">6,441건</td></tr>
-        <tr><td>재해유형 라벨 정확도</td><td class="num">87.6%</td><td class="num up">사람 검수로 확정</td></tr>
-        <tr><td>분류 정확도 (블라인드 테스트 100건)</td><td class="num">93.0%</td><td class="num up">97.0%</td></tr>
-        <tr><td>질문당 입력 토큰</td><td class="num">49,706</td><td class="num up">3,410</td></tr>
-        <tr><td>인용 사례가 질문 조건에 맞는 비율</td><td class="num">84%</td><td class="num up">100%</td></tr>
-        <tr><td>답변 품질 (사람 블라인드 비교 16문항)</td><td class="num">6승</td><td class="num up">8승 (비슷 2)</td></tr>
-        <tr><td>사고대응 답변 형식 (새 질문 5문항)</td><td class="num">V2 형식 0승</td><td class="num up">V2.1 형식 5승</td></tr>
+        <tr><td>구조</td><td>키워드 사전 → 업종 AND 유형 필터 → 5건 요약</td><td>사례 전체를 매번 입력</td><td>질문 이해 → 코드 필터·집계 → 의미 검색</td></tr>
+        <tr><td>검색 대상 사례</td><td class="num">409건</td><td class="num">409건</td><td class="num up">6,441건</td></tr>
+        <tr><td>사례를 찾은 질문 (43문항)</td><td class="num">2 / 43</td><td class="num">해당 없음</td><td class="num up">43 / 43</td></tr>
+        <tr><td>재해유형 라벨 정확도</td><td class="num">87.6%</td><td class="num">87.6%</td><td class="num up">사람 검수로 확정</td></tr>
+        <tr><td>분류 정확도 (블라인드 테스트 100건)</td><td class="num">기능 없음</td><td class="num">93.0%</td><td class="num up">97.0%</td></tr>
+        <tr><td>질문당 입력 토큰</td><td class="num">142 (사례를 못 넣음)</td><td class="num">49,706</td><td class="num up">3,410</td></tr>
+        <tr><td>인용 사례가 질문 조건에 맞는 비율</td><td class="num">— (인용 없음)</td><td class="num">84%</td><td class="num up">100%</td></tr>
+        <tr><td>답변 품질 (사람 블라인드 비교 16문항)</td><td class="num">—</td><td class="num">6승</td><td class="num up">8승 (비슷 2)</td></tr>
+        <tr><td>사고대응 답변 형식 (새 질문 5문항)</td><td class="num">—</td><td class="num">—</td><td class="num up">V2.1 형식 5 : V2 형식 0</td></tr>
       </tbody>
     </table></div>
   </section>
@@ -96,8 +98,8 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
       <thead><tr><th>구분</th><th>V1 (졸업작품)</th><th>V2.2 (재구축)</th></tr></thead>
       <tbody>
         <tr><td>웹</td><td>Django</td><td>Streamlit 1.66, 그래프 Altair 6.3</td></tr>
-        <tr><td>LLM</td><td>OpenAI GPT-4</td><td>OpenAI <code>gpt-5.4-mini</code> (답변·분류·추출·사진 설명), 평가 채점 <code>gpt-5.5</code></td></tr>
-        <tr><td>검색</td><td>사례 전체를 프롬프트에 입력 (재현 기준)</td><td>임베딩 의미 검색: <code>text-embedding-3-small</code> + numpy 코사인 유사도 (별도 벡터 DB 없음), 조건 필터는 pandas</td></tr>
+        <tr><td>LLM</td><td>OpenAI <code>gpt-4-turbo</code> (서비스 종료, 평가는 <code>gpt-5.4-mini</code>로 통일)</td><td>OpenAI <code>gpt-5.4-mini</code> (답변·분류·추출·사진 설명), 평가 채점 <code>gpt-5.5</code></td></tr>
+        <tr><td>검색</td><td>동의어 사전 키워드 → 업종 AND 유형 필터 → 앞 5건 (원본 코드 기준)</td><td>임베딩 의미 검색: <code>text-embedding-3-small</code> + numpy 코사인 유사도 (별도 벡터 DB 없음), 조건 필터는 pandas</td></tr>
         <tr><td>데이터 처리</td><td>엑셀 수작업 정리</td><td>pandas 3.0, openpyxl 3.1 (검수표 서식), olefile (hwp 가이드 추출)</td></tr>
         <tr><td>데이터 수집</td><td>공단 재해사례 수작업 수집</td><td>공공데이터포털 오픈 API (requests), 키 관리 python-dotenv</td></tr>
         <tr><td>언어·도구</td><td>Python</td><td>Python 3.13, git, AI 코딩 도구 Claude Code (Anthropic, VS Code 확장)</td></tr>
@@ -131,7 +133,7 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
         <tr><td>세부 기준</td><td>매몰과 깔림 구분, 충돌 후 깔림 = 깔림, 떨어진 뒤 깔림 = 깔림, 원인 불명은 추측하지 않음</td><td class="num">기록 [5][8]</td></tr>
         <tr><td>라벨 검수</td><td>GPT 재판정 결과 중 의심 사례 검수, 유형 18건·연관유형 13건 수정</td><td class="num">75건</td></tr>
         <tr><td>블라인드 라벨링</td><td>원본·GPT 라벨을 가리고 테스트 정답 작성, 애매한 4건 최종 조정</td><td class="num">100건</td></tr>
-        <tr><td>답변 채점</td><td>V1 vs V2, V2 vs V2.1 블라인드 쌍 비교</td><td class="num">31문항</td></tr>
+        <tr><td>답변 채점</td><td>추측한 V1 vs V2, V2 vs V2.1 블라인드 쌍 비교</td><td class="num">31문항</td></tr>
         <tr><td>평가 질문</td><td>실제 졸업작품 시연 때 쓴 질문 3개 복원</td><td class="num">3개</td></tr>
         <tr><td>웹 테스트</td><td>사례 ID 가독성 문제, 업로드 오류 발견</td><td class="num">2건</td></tr>
         <tr><td>준비·관리</td><td>공공데이터포털 API 활용신청, 키 관리, git 기록</td><td class="num">신청 3건</td></tr>
@@ -151,11 +153,12 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
     <ol class="steps">
       <li data-step="0"><b>준비</b><span>가상환경, API 키, git, SIF API 활용신청</span></li>
       <li data-step="1"><b>엑셀 정제와 라벨 재검증</b><span>시도 표기 42종 → 17종, 라벨 오류 63건(12.4%) 발견, 분류 기준 확정</span></li>
-      <li data-step="2"><b>V1 재현과 평가 설계</b><span>사례 전체를 프롬프트에 넣는 방식으로 재현, 테스트 100건 분리, 블라인드 정답, 질문 43개</span></li>
+      <li data-step="2"><b>V1 재현과 평가 설계</b><span>코드가 유실된 줄 알고 사례 전체를 프롬프트에 넣는 방식으로 추측해 재현, 테스트 100건 분리, 블라인드 정답, 질문 43개</span></li>
       <li data-step="3"><b>SIF 수집</b><span>공공데이터 오픈 API로 6,032건 (호출 61회)</span></li>
       <li data-step="4"><b>V2 구축</b><span>SIF 유형 분류(원래 유형과 일치 90.6%), 엑셀 기인물·원인 추출, 통합 6,441건, 검색 엔진</span></li>
       <li data-step="5"><b>비교 평가와 개선</b><span>V1 vs V2 → 사고대응 약점 발견 → V2.1 → 새 질문으로 검증 → V2.2 확정</span></li>
       <li data-step="6"><b>웹 화면</b><span>챗봇(사진 입력), 사고 데이터 분석, 자주 묻는 질문, 통계·사례 검색</span></li>
+      <li data-step="7"><b>원본 V1 발견과 재평가</b><span>졸업작품 백업에서 챗봇 원본 코드 발견 → 같은 모델로 재평가: 질문 43개 중 사례를 찾은 질문 2개 (2026.11)</span></li>
     </ol>
   </section>
 
@@ -164,10 +167,11 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
     <div class="tablewrap"><table>
       <thead><tr><th>V1의 문제</th><th>바꾼 것</th><th>결과</th></tr></thead>
       <tbody>
+        <tr><td>사전에 없는 표현이면 사례 0건 (실제 V1, 키워드 사전 + AND 필터)</td><td>GPT가 질문에서 조건 추출 + 의미 검색</td><td>사례를 찾은 질문 2 → 43 (43문항)</td></tr>
         <tr><td>사고 원인·기인물 없음, 건설업 위주</td><td>SIF 아카이브 오픈 API 추가 (크롤링 대신)</td><td>6,441건, 기인물·재해유발요인 100%</td></tr>
         <tr><td>라벨 오류 12.4%, 분류 기준 없음</td><td>기준 문서화 + GPT 판정 + 사람 검수</td><td>분류 정확도 93% → 97%</td></tr>
-        <tr><td>"건설업 주요 사고"를 틀리게 답함 (끼임이 2위라고 답함, 실제 5위)</td><td>건수 집계와 조건 필터를 GPT 대신 코드로</td><td>조건 준수 84% → 100%</td></tr>
-        <tr><td>질문마다 약 5만 토큰, 데이터 확장 불가</td><td>관련 사례만 검색해 전달 (RAG)</td><td>토큰 약 1/15</td></tr>
+        <tr><td>"건설업 주요 사고"를 틀리게 답함 (추측한 V1, 끼임이 2위라고 답함, 실제 5위)</td><td>건수 집계와 조건 필터를 GPT 대신 코드로</td><td>조건 준수 84% → 100%</td></tr>
+        <tr><td>질문마다 약 5만 토큰, 데이터 확장 불가 (추측한 V1)</td><td>관련 사례만 검색해 전달 (RAG)</td><td>토큰 약 1/15</td></tr>
         <tr><td>사고대응 답변에서 긴급 조치가 뒤로 밀림</td><td>사고대응은 "지금 바로 할 일" 먼저</td><td>새 질문 5:0</td></tr>
         <tr><td>사고 사진 없음</td><td>사진을 GPT가 글로 설명 → 그 설명으로 검색</td><td>사진 DB 없이 구현</td></tr>
       </tbody>
@@ -177,7 +181,7 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
   <section>
     <h2><span class="n">06</span>공정한 비교를 위한 장치</h2>
     <ul class="plain">
-      <li>V1·V2 <b>같은 모델</b>: 차이를 데이터와 구조로만 해석</li>
+      <li>실제 V1·추측한 V1·V2 <b>같은 모델</b>: 차이를 데이터와 구조로만 해석</li>
       <li>테스트 100건을 <b>어느 DB에도 넣지 않음</b>: 정답 사례를 그대로 찾아 점수가 부풀려지는 것 방지</li>
       <li><b>블라인드 라벨링</b>: GPT 판정을 보고 검수하면 GPT 쪽으로 기우는 것(앵커링)을 1단계에서 확인했기 때문</li>
       <li>답변 비교는 <b>A/B 순서를 섞어서</b>, 사람 채점이 끝난 뒤 GPT 채점 공개</li>
@@ -204,7 +208,7 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
     </div>
     <div class="quote">
       <div class="label">30초</div>
-      <div>"졸업작품에서 저는 안전보건공단 재해사례를 수집해 정리하고 웹 화면을 만들었습니다. 코드가 유실되어 다시 만들면서 개선을 목표로 했는데, 기존 데이터의 재해유형 라벨 12%가 잘못되어 있었습니다. 그래서 매몰과 깔림을 구분하는 것 같은 분류 기준을 직접 정하고 데이터를 검수했고, 공공데이터 API로 사례를 6천 건 이상 추가해 검색 기반 구조로 바꿨습니다. 블라인드 평가로 분류 정확도 93%에서 97%, 비용은 15분의 1로 줄어든 것을 확인했습니다. 구현에는 AI 코딩 도구를 활용했고, 저는 방향 결정과 데이터 검수, 평가를 맡았습니다."</div>
+      <div>"졸업작품에서 저는 안전보건공단 재해사례를 수집해 정리하고 웹 화면을 만들었습니다. 다시 만들면서 진단해 보니 기존 데이터의 재해유형 라벨 12%가 잘못되어 있었고, 나중에 찾은 원본 코드로 다시 평가해 보니 키워드 사전에 의존한 검색이 질문 43개 중 2개에서만 사례를 찾았습니다. 그래서 매몰과 깔림을 구분하는 것 같은 분류 기준을 직접 정하고 데이터를 검수했고, 공공데이터 API로 사례를 6천 건 이상 추가해 질문 이해와 의미 검색 구조로 바꿨습니다. 블라인드 평가로 분류 정확도 93%에서 97%, 비용은 통째로 넣는 방식의 15분의 1로 줄어든 것을 확인했습니다. 구현에는 AI 코딩 도구를 활용했고, 저는 방향 결정과 데이터 검수, 평가를 맡았습니다."</div>
     </div>
     <div class="qa">
       <details><summary>AI가 코드를 짰으면 본인이 한 건 뭐예요?</summary>
@@ -213,6 +217,8 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
         <p>분류 기준이 문서로 없었던 점입니다. '떨어진 뒤 슬라브에 깔림'처럼 두 가지가 겹치는 사례가 계속 나와서, 사람이 입은 피해의 가장 큰 원인으로 판단한다는 원칙을 세우고 예외를 하나씩 기록했습니다.</p></details>
       <details><summary>결과가 기대보다 안 좋았던 부분은?</summary>
         <p>답변 품질은 사람 평가에서 8대 6으로 차이가 크지 않았고, 사고대응 질문은 예전 버전이 낫다는 평가가 나왔습니다. 응급 상황에서는 할 일을 먼저 보여주는 형식으로 바꾸고, 새 질문으로 다시 평가해 5대 0으로 개선을 확인했습니다.</p></details>
+      <details><summary>V1을 추측으로 재현했다는데, 비교가 믿을 만한가요?</summary>
+        <p>처음에는 코드가 유실된 줄 알고 가장 단순한 방식으로 재현했는데, 이후 졸업작품 백업에서 원본 코드를 찾았습니다. 원본은 키워드 사전으로 업종과 유형을 찾아 엑셀을 거르는 방식이었고, 같은 모델로 다시 평가하니 사전에 없는 표현에서는 사례를 하나도 찾지 못해 43개 중 2개만 성공했습니다. 그래서 기존 숫자는 '추측한 V1'과의 비교로 이름을 바로잡고, 실제 V1 결과를 함께 공개했습니다. 두 비교는 각각 키워드 검색의 재현율 한계와 통째로 넣는 방식의 비용 한계를 보여줍니다.</p></details>
       <details><summary>왜 크롤링 대신 API를 썼나요?</summary>
         <p>이용 조건이 명확하고, 사이트 화면 구조가 바뀌어도 수집 코드가 깨지지 않으며, 기인물·재해유발요인·감소대책이 구조화된 필드로 제공되기 때문입니다.</p></details>
       <details><summary>벡터 DB는 뭘 썼나요?</summary>
