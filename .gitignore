@@ -23,3 +23,6 @@ docs/planning/
 
 # KOSHA GUIDE 원본 PDF (약 460MB, collectors/kosha_guide_pdf.py로 다시 받을 수 있음)
 data/raw/kosha_guide/pdf/
+
+# KOSHA GUIDE 추출 텍스트 (약 33MB, pipeline/extract_guides.py로 다시 만들 수 있음)
+data/processed/kosha_guide_text.jsonl
