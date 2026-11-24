@@ -26,3 +26,8 @@ data/raw/kosha_guide/pdf/
 
 # KOSHA GUIDE 추출 텍스트 (약 33MB, pipeline/extract_guides.py로 다시 만들 수 있음)
 data/processed/kosha_guide_text.jsonl
+
+# 지침 조각 (약 32MB, pipeline/chunk_guides.py로 다시 만들 수 있음)
+data/processed/guide_chunks.csv
+# 그림 확인용 PNG (판정 csv만 올림)
+data/processed/guide_figures_sample/*.png
