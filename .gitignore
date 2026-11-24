@@ -20,3 +20,6 @@ data/feedback/
 
 # 개인 계획 문서
 docs/planning/
+
+# KOSHA GUIDE 원본 PDF (약 460MB, collectors/kosha_guide_pdf.py로 다시 받을 수 있음)
+data/raw/kosha_guide/pdf/
