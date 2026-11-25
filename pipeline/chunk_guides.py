@@ -6,10 +6,13 @@
 
 규칙
 1. 앞부분 빼기: "1. 목적"이 처음 나오는 줄부터 본문 (표지·개요·목차 제거)
+   끝부분 빼기: "지침 개정 이력"·"기술지원규정 개정 이력" 줄부터 끝까지 (개정일·개정자 이름·사유뿐, 2차 원문 대조)
 2. 머리글·쪽 번호: 쪽마다 앞 3줄·뒤 2줄 중 본문 쪽 절반 이상에 똑같이 나오는 줄을 지움
    (머리글 모양이 10가지 넘게 달라서 모양 대신 반복 횟수로 찾음) + 숫자·대시만 있는 줄
 3. 제목: 장은 번호가 1씩 늘 때만 인정(본문 속 번호 목록과 구별), 절 N.N·항 N.N.N은 앞 번호가 지금 장과 같을 때만.
    <부록>은 장 하나로 보고 그 안에서는 번호 제목을 찾지 않음 (부록 안 번호가 다시 1부터 시작하므로)
+   번호 뒤 첫 글자는 한글·영문 모두 인정 ("7. PSM 공법…"). 절·항 제목 줄은 번호 붙은 문단의 첫 줄일 수 있어
+   위치에 넣고 본문 첫 줄에도 남김 (1차 원문 대조에서 고침)
 4. 크기: MIN_CHARS 미만은 같은 장 안의 다음(없으면 이전) 조각과 합침, MAX_CHARS 초과는
    (1)·(가) 같은 항목이 시작하는 줄에서 TARGET_CHARS 안팎으로 자름
 5. 줄 이어 붙이기: 쪽 너비 때문에 꺾인 줄은 띄어쓰기 한 칸, 항목 기호로 시작하는 줄은 줄바꿈 유지
@@ -46,10 +49,14 @@ HANGUL_MIN = 0.3
 
 START_RE = re.compile(r"^1\s*\.\s*목\s*적")
 PAGE_NO_RE = re.compile(r"^[\s\-－–]*\d+[\s\-－–]*$")
-H1_RE = re.compile(r"^(\d{1,2})\s*\.\s*([가-힣].{0,40})$")
-H2_RE = re.compile(r"^(\d{1,2})\.(\d{1,2})\.?\s+([가-힣].{0,50})$")
-H3_RE = re.compile(r"^(\d{1,2})\.(\d{1,2})\.(\d{1,2})\.?\s+([가-힣].{0,50})$")
+# 번호 뒤 첫 글자는 한글 또는 영문 ("7. PSM 공법…" 같은 장 제목을 놓치면 그 뒤 장 번호가 모두 밀림, 1차 대조)
+H1_RE = re.compile(r"^(\d{1,2})\s*\.\s*([가-힣A-Za-z].{0,40})$")
+H2_RE = re.compile(r"^(\d{1,2})\.(\d{1,2})\.?\s+([가-힣A-Za-z].{0,50})$")
+H3_RE = re.compile(r"^(\d{1,2})\.(\d{1,2})\.(\d{1,2})\.?\s+([가-힣A-Za-z].{0,50})$")
 APPENDIX_RE = re.compile(r"^[<〈\[]\s*부\s*록")
+# 2차 대조: 지침 끝의 "지침 개정 이력", "기술지원규정 제정 이력", "기술지원규정 제·개정 이력"
+# (본문 속 "관리부서 제·개정 이력" 같은 표 글은 앞에 지침·기술지원규정이 없고 줄 처음도 아니라서 걸리지 않음)
+HISTORY_RE = re.compile(r"(지침|기술지원규정)\s*(제\s*[^\s가-힣]?\s*)?(개정|제정)\s*이력|^개정\s*이력")  # 가운뎃점 모양이 ·ㆍ‧ 등 여러 가지
 ITEM_RE = re.compile(r"^(\(\d+\)|\([가-힣]\)|\d+\)|[가-힣]\.\s|[①-⑳]|[-•○◦·ㆍ])")
 HANGUL_RE = re.compile(r"[가-힣]")
 FIG_REF_RE = re.compile(r"[<〈\[]\s*그림\s*(\d+(?:[-.]\d+)*)\s*[>〉\]]")
@@ -60,6 +67,8 @@ class Section:
     path: list[str]            # [장, 절, 항] 제목
     chapter: int               # 같은 장끼리만 합치기 위한 순번
     lines: list[tuple[str, int]] = field(default_factory=list)  # (줄, PDF 쪽 1부터)
+    title_in_body: bool = False  # 절·항 제목 줄이 본문 첫 줄에도 들어 있음
+    merged: bool = False         # 형제 절과 합쳐져 본문이 여러 절에 걸침
 
     def chars(self) -> int:
         return sum(len(t) for t, _ in self.lines)
@@ -90,6 +99,11 @@ def body_lines(pages: list[str]) -> list[tuple[str, int]]:
                 continue
             if x in repeated or PAGE_NO_RE.match(x):
                 continue
+            h = HISTORY_RE.search(x)
+            if h:  # 문서 맨 끝의 개정 이력(개정일·개정자 이름·사유)부터는 본문이 아님
+                if x[: h.start()].strip():
+                    out.append((x[: h.start()].strip(), si + k + 1))
+                return out
             out.append((x, si + k + 1))
     return out
 
@@ -107,12 +121,14 @@ def to_sections(lines: list[tuple[str, int]]) -> list[Section]:
         elif m1 and int(m1.group(1)) == cur + 1 and not text.endswith("다."):
             cur, chapter, h1, h2 = cur + 1, chapter + 1, text, ""
             secs.append(Section([h1], chapter))
+        # 절·항은 "7.5.3 석유화학공단 내 … 대비하"처럼 번호 붙은 문단의 첫 줄일 수도 있다(1차 대조).
+        # 제목인지 문단인지 줄만 보고는 가릴 수 없으므로 위치에 넣고 본문 첫 줄에도 남겨 글이 사라지지 않게 한다
         elif m3 and int(m3.group(1)) == cur and not text.endswith("다."):
             path = [h1, h2, text] if h2.startswith(f"{m3.group(1)}.{m3.group(2)}") else [h1, text]
-            secs.append(Section(path, chapter))
+            secs.append(Section(path, chapter, [(text, page)], True))
         elif m2 and int(m2.group(1)) == cur and not text.endswith("다."):
             h2 = text
-            secs.append(Section([h1, h2], chapter))
+            secs.append(Section([h1, h2], chapter, [(text, page)], True))
         elif secs:
             secs[-1].lines.append((text, page))
     return secs
@@ -122,17 +138,36 @@ def first_page(*secs: Section) -> int:
     return next((s.lines[0][1] for s in secs if s.lines), 0)
 
 
+def common_path(a: list[str], b: list[str]) -> list[str]:
+    out = []
+    for x, y in zip(a, b):
+        if x != y:
+            break
+        out.append(x)
+    return out
+
+
 def merge_small(secs: list[Section]) -> list[Section]:
     """MIN_CHARS 미만 조각을 같은 장의 다음 조각 앞에(없으면 이전 조각 뒤에) 붙인다.
-    다음 조각이 자식 절이면 제목이 이미 위치에 들어 있으므로 본문만, 형제 절이면 제목 줄도 함께 붙인다"""
+    - 다음 조각이 자식 절이면 부모 제목은 이미 위치에 들어 있으므로 본문만 붙인다
+    - 형제 절이면 제목 줄도 본문에 들어가야 하고(절·항은 이미 본문 첫 줄에 있음),
+      위치는 두 절의 공통 상위로 바꾼다 (7.5.2 + 7.5.3 → "7.5 …", 1차 대조)"""
     out: list[Section] = []
     carry: Section | None = None
     for s in secs:
         if carry is not None:
             if carry.chapter == s.chapter:
                 is_parent = s.path[: len(carry.path)] == carry.path
-                head = [] if is_parent else [(carry.path[-1], first_page(carry, s))]
-                s.lines = head + carry.lines + s.lines
+                body = carry.lines
+                if is_parent and carry.title_in_body:
+                    body = body[1:]
+                head = [] if is_parent or carry.title_in_body else [(carry.path[-1], first_page(carry, s))]
+                if head or body:
+                    s.lines = head + body + s.lines
+                    s.title_in_body = False  # 첫 줄이 더는 자기 제목이 아님
+                if not is_parent or carry.merged:
+                    s.path = common_path(carry.path, s.path)
+                    s.merged = True
             else:
                 out.append(carry)  # 같은 장에 다음 조각이 없음 → 아래에서 이전 조각과 합치기 시도
             carry = None
@@ -147,7 +182,9 @@ def merge_small(secs: list[Section]) -> list[Section]:
     for s in out:
         if s.chars() < MIN_CHARS and final and final[-1].chapter == s.chapter:
             prev = final[-1]
-            prev.lines += [(s.path[-1], first_page(s, prev))] + s.lines
+            head = [] if s.title_in_body else [(s.path[-1], first_page(s, prev))]
+            prev.lines += head + s.lines
+            prev.path = common_path(prev.path, s.path)
         elif s.lines:
             final.append(s)
     return final
